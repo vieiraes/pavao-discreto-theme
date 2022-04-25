@@ -1,0 +1,36 @@
+{
+    "name": "pavao-discreto",
+    "displayName": "pavao-discreto",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "BrunoVieira",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "bitcapital",
+        "theme",
+        "eyes",
+        "pavao",
+        "discreto",
+        "readable",
+        "dark theme",
+        "pavao-discreto"
+    ],
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pavao-discreto",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pavao-discreto-color-theme.json"
+            }
+        ]
+    }
+}

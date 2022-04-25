@@ -1,0 +1,32 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
+    "jshint.packageManager": "yarn",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#34d02a",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#29a621",
+        "statusBarItem.remoteBackground": "#34d02a",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#34d02a",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#34d02a99",
+        "titleBar.inactiveForeground": "#15202b99",
+        "editorCursor.foreground": "#00ff62",
+        "terminalCursor.foreground": "#00ff62"
+    },
+    "peacock.color": "#34d02a",
+    "editor.cursorWidth": 7,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSurroundingLines": 8,
+    "workbench.experimental.editor.dragAndDropIntoEditor.enabled": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "timeline.pageOnScroll": false,
+    "markdown.extension.syntax.plainTheme": true,
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "github.copilot.inlineSuggest.enable": true
+}
