@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "pavao-discreto"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# pavao-discreto
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+* "Theme is designed for developers who need a good visual contrast, and don't want to have the constriction effect after long hours of coding. This time has passed all this in a well balanced way, which you will surely enjoy."
 
 ### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* [Bruno Vieira](mailto:vieira.es@gmail.com)
+
 
 **Enjoy!**
