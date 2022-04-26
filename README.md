@@ -10,6 +10,5 @@
 Please report issues related to this theme on the repository page.
 
 
-[Github repository](git@github.com:vieiraes/pavao-discreto-theme.git)
 
 **Enjoy!**
