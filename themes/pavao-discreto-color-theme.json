@@ -356,7 +356,8 @@
 		{
 			"scope": "keyword.operator.logical",
 			"settings": {
-				"foreground": "#56B6C2"
+				"foreground": "#56B6C2",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -468,6 +469,13 @@
 			"scope": "keyword.operator.misc.rust",
 			"settings": {
 				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"scope": "storage.modifier.async.ts,keyword.control.flow.ts",
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1164,15 +1172,22 @@
 			}
 		},
 		{
-			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
+			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python,punctuation.definition.block.ts",
 			"settings": {
-				"foreground": "#56B6C2"
+				"foreground": "#56B6C2",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "function.parameter",
 			"settings": {
 				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"scope": "meta.brace.round.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts",
+			"settings": {
+				"foreground": "#c4e606"
 			}
 		},
 		{

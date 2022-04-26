@@ -32,5 +32,8 @@
                 "path": "./themes/pavao-discreto-color-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.7.0"
     }
 }
