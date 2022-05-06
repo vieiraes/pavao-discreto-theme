@@ -11,4 +11,6 @@ Please report issues related to this theme on the repository page.
 
 
 
+
+
 **Enjoy!**

@@ -1,9 +1,20 @@
-# Change Log
+# Changelog
+All notable changes to this project will be documented in this file.
 
-All notable changes to the "pavao-discreto" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
 
-- Initial release
+## [0.0.3] - 2022-05-6
+### Fix
+- fixed contrast in exlorer
+- fixed contrast in terminal
+- fixed color contrast in scrollers
+
+
+## [0.0.3] - 2022-04-26
+### Fix deployment
+
+
+## [0.0.1] - 2022-04-25
+### Initial release
+
