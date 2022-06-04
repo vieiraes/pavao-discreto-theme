@@ -456,7 +456,7 @@
 		{
 			"scope": "variable.other.readwrite",
 			"settings": {
-				"foreground": "#E06C75",
+				"foreground": "#E5C07B",
 			}
 		},
 		{
@@ -1577,8 +1577,6 @@
 			],
 			"settings": {
 				"foreground": "#1adae0"
-				
-
 			}
 		},
 		{
@@ -2038,12 +2036,24 @@
 			}
 		},
 		{
+			"scope": "meta.import.js",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#49A4EE"
 			}
 		},
-		{
+		{ //meta.import.js
+			"scope": "variable.other.readwrite.alias.js",
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{ //
 			"scope": "support.function",
 			"settings": {
 				"foreground": "#49A4EE"
