@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+## [0.1.1] - 2022-06-4
+### Features
+- Fix punctuation schema color in JS, TS
+- Added intial schema for Python language
+
+
+
+
 ## [0.1.0] - 2022-06-4
 ### Features
 - Finished Javascript and TypeScript schema

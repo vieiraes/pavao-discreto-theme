@@ -161,13 +161,21 @@
 			}
 		},
 		{
-			"scope": "punctuation.terminator.statement.js",
+			"scope": "punctuation.accessor.ts, punctuation.accessor.js, punctuation.terminator.statement.js, punctuation.terminator.statement.ts, punctuation.separator.comma.ts, punctuation.separator.comma.js",
 			"settings": {
-				"foreground": "#ABB2BF",
-				"fontStyle": "bold"
+				"foreground": "#C678DD",
 			}
 		},
 		//
+
+		{
+			"scope": "punctuation.definition.string.template.begin.ts, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.ts, punctuation.definition.string.template.end.js",
+			"settings": {
+				"foreground": "#90f1ad",
+				"fontStyle": "bold"
+			}
+		},
+
 		{
 			"scope": "punctuation.terminator.statement.unison,punctuation.terminator.statement.unison-js",
 			"settings": {
@@ -257,8 +265,8 @@
 		{
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#ABB2BF",
-				"fontStyle": "bold"
+				"foreground": "#90f1ad",
+				//"fontStyle": "bold"
 			}
 		},
 		{
@@ -312,8 +320,8 @@
 		{
 			"scope": "punctuation.separator.key-value",
 			"settings": {
-				"foreground": "#ABB2BF",
-				"fontStyle": "bold"
+				"foreground": "#fd7f89",
+				//"fontStyle": "bold"
 			}
 		},
 		{
@@ -514,13 +522,6 @@
 			"settings": {
 				"foreground": "#74c58c",
 				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "punctuation.separator.comma.js",
-			"settings": {
-				"foreground": "#ABB2BF",
-				"fontStyle": "bold"
 			}
 		},
 		// {
@@ -744,7 +745,6 @@
 				"fontStyle": "bold underline"
 			}
 		},
-
 		{
 			"scope": "punctuation.decorator.ts,punctuation.decorator.js",
 			"settings": {
@@ -1268,18 +1268,17 @@
 		{
 			"scope": "punctuation.definition.block.ts,punctuation.definition.block.js",
 			"settings": {
-				"foreground": "#56B6C2",
-				
+				"foreground": "#F3A862",
 			}
 		},
-		{//	
+		{ //	
 			"scope": "function.parameter",
 			"settings": {
 				"foreground": "#ABB2BF"
 			}
 		},
 		{
-			"scope": "meta.brace.round.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts",
+			"scope": "meta.brace.round.ts, meta.brace.round.js,punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts",
 			"settings": {
 				"foreground": "#c4e606"
 			}
@@ -1554,25 +1553,6 @@
 				"foreground": "#E06C75"
 			}
 		},
-
-		{
-			"scope": [
-				"punctuation.definition.string.template.end.ts,punctuation.definition.string.template.begin.ts"
-			],
-			"settings": {
-				"foreground": "#ABB2BF",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.definition.string.template.end.js,punctuation.definition.string.template.begin.js"
-			],
-			"settings": {
-				"foreground": "#ABB2BF",
-				"fontStyle": "bold"
-			}
-		},
 		{
 			"scope": [
 				"source.js,source.ts"
@@ -1585,9 +1565,7 @@
 			"scope": [
 				"meta.object.member.js,meta.object.member.ts"
 			],
-			"settings": {
-	
-			}
+			"settings": {}
 		},
 		//
 		// {
@@ -1600,11 +1578,15 @@
 		{ //meta.var.expr.js 
 			"scope": [
 				"meta.arrow.js",
+				"meta.arrow.ts",
 				"meta.block.js",
-				"meta.function.js"
+				"meta.block.ts",
+				"meta.function.js",
+				"meta.function.ts"
 			],
 			"settings": {
-				"foreground": "#1adae0"
+				"foreground": "#E5C07B",
+				//"fontStyle": "bold"
 			}
 		},
 		{
