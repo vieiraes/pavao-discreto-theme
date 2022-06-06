@@ -522,6 +522,7 @@
 			"scope": "variable.other.readwrite",
 			"settings": {
 				"foreground": "#E5C07B",
+				//"fontStyle": "underline"
 			}
 		},
 		{
@@ -1963,12 +1964,23 @@
 				"foreground": "#ABB2BF"
 			}
 		},
-		{
+		{//
+
 			"scope": [
 				"variable.other.object"
 			],
 			"settings": {
-				"foreground": "#49A4EE"
+				"foreground": "#E5C07B",
+					//"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#E5C07B",
+				//"fontStyle": "underline"
 			}
 		},
 		{
