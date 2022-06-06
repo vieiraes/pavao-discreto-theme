@@ -8,6 +8,7 @@
 ### Color schemas
 - Javascript = 100%
 - Typescript = 100%
+- UML = 100%
 
 In develop
 - HTML/CSS = 90%
