@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+
+## [0.1.6] - 2022-06-11
+### Features
+- Added undeline in export function JS TS
+
 ## [0.1.4] - 2022-06-4
 ### Features
 - Added support for UML files

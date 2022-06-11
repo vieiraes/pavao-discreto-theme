@@ -21,6 +21,8 @@ Please report issues related to this theme on the repository page.
 
 
 development by [Bruno Vieira](mailto:vieira.es@gmail.com)
+
+
 art and logo by [Ruan Rodrigues](mailto:ru.1170@hotmail.com)
 
 
