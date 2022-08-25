@@ -2,7 +2,7 @@
     "name": "pavao-discreto",
     "displayName": "pavao-discreto",
     "description": "Theme is designed for developers who needs a good visual contrast, and don't want to have the constriction effect after long hours of coding. This time has passed all this in a well balanced way, which you will surely enjoy. Better with Javascript and TypeScript",
-    "version": "0.1.8",
+    "version": "0.1.11",
     "publisher": "BrunoVieira",
     "icon": "storage/logo-pavao-discreto.png",
     "homepage": "https://github.com/vieiraes/pavao-discreto-theme",
@@ -41,6 +41,6 @@
         ]
     },
     "dependencies": {
-        "vsce": "^2.9.1"
+        "vsce": "^2.10.2"
     }
 }

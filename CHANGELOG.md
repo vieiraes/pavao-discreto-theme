@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.1.11] - 2022-06-11
+### Features
+- Fixed color of selected tab
+
+
 ## [0.1.6] - 2022-06-11
 ### Features
 - Added undeline in export function JS TS
