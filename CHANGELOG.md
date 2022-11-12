@@ -2,9 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 
-## [0.1.11] - 2022-06-11
+## [0.1.11] - 2022-11-11
 ### Features
 - Fixed color of selected tab
+- change the basic color to blue
 
 
 ## [0.1.6] - 2022-06-11
