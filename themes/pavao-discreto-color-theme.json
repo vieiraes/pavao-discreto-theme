@@ -137,7 +137,7 @@
 		"terminal.ansiYellow": "#d18f52",
 		"terminal.background": "#151924",
 		"terminal.border": "#7959bfbd",
-		"terminal.foreground": "#6699CC",
+		"terminal.foreground": "#71abe4ea",
 		"terminal.selectionBackground": "#abb2bf30",
 		"textBlockQuote.background": "#2e3440",
 		"textBlockQuote.border": "#7959bfbd",
@@ -194,6 +194,19 @@
 			"scope": "variable.other.generic-type.haskell",
 			"settings": {
 				"foreground": "#C678DD"
+			}
+		},
+		{
+			"scope": "variable.other.property.js",
+			"settings": {
+				"foreground": "#ECBE92",
+				"fontStyle": "",
+			}
+		},
+		{
+			"scope": "keyword.control.flow.js",
+			"settings": {
+				"foreground": "#E06C75"
 			}
 		},
 		{
@@ -330,10 +343,10 @@
 			}
 		},
 		{ // keyword.control.import.ts,keyword.control.import.js
-			"scope": "string.template.js,string.js",
+			"scope": "string.js",
 			"settings": {
-				"foreground": "#99C794",
-				//"fontStyle": ""
+				"foreground": "#98C379",
+				"fontStyle": ""
 			}
 		}, //
 		{
@@ -341,12 +354,18 @@
 			"settings": {
 				"foreground": "#D19A66"
 			}
-		}, //string.template.js
+		},
+		{
+			"scope": "string.template.js",
+			"settings": {
+				"foreground": "#B9EE98C2"
+			}
+		}, //
 		{
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
 				"foreground": "#90f1ad",
-				//"fontStyle": "bold"
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -543,23 +562,30 @@
 			}
 		},
 		{
-			"scope": "meta.object-literal.key,support.variable.object.node, support.variable.object.process, support.variable.property",
+			"scope": ",support.variable.object.node, support.variable.object.process, support.variable.property",
 			"settings": {
-				"foreground": "#E06C75"
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "meta.object-literal.key", //AQUI
+			"settings": {
+				"foreground": "#b9ee98c2", //gostei b9ee98e9
+				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "variable.other.readwrite",
 			"settings": {
-				"foreground": "#ECBE92",
+				"foreground": "#deb38aed",
 				"fontStyle": ""
 			}
 		},
 		{
-			"scope": "meta.array.literal.js",
+			"scope": "meta.array.literal",
 			"settings": {
-				// "foreground": "#ECBE92",
-				"fontStyle": ""
+				"foreground": "#ECBE92",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -606,20 +632,20 @@
 				"foreground": "#ABB2BF"
 			} //
 		},
+		// {
+		// 	"scope": "string.quoted.double.js",
+		// 	"settings": {
+		// 		// "foreground": "#99C794",
+		// 		"fontStyle": ""
+		// 	}
+		// },
 		{
-			"scope": "string.quoted.double.js",
+			"scope": "meta.objectliteral",
 			"settings": {
-				"foreground": "#99C794",
+				"foreground": "#d2a982ed",
 				"fontStyle": ""
 			}
 		},
-		// {
-		// 	"scope": "meta.objectliteral.js",
-		// 	"settings": {
-		// 		"foreground": "#ABB2BF",
-		// 		//"fontStyle": "bold"
-		// 	}
-		// },
 		// {
 		// 	"scope": "storage.modifier.async.ts,keyword.control.flow.ts",
 		// 	"settings": {
@@ -948,7 +974,8 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#D19A66"
+				"foreground": "#D19A66",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1088,7 +1115,8 @@
 				"punctuation.definition.metadata.markdown"
 			],
 			"settings": {
-				"foreground": "#E06C75"
+				"foreground": "#E06C75",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1333,6 +1361,7 @@
 			"scope": "punctuation.definition.block.ts,punctuation.definition.block.js",
 			"settings": {
 				"foreground": "#F3A862",
+				"fontStyle": ""
 			}
 		},
 		{ //	
@@ -1341,10 +1370,24 @@
 				"foreground": "#ABB2BF"
 			}
 		},
+		{ //	
+			"scope": "meta.object.member.js",
+			"settings": {
+				"foreground": "#99C794",
+				"fontStyle": "italic"
+			}
+		},
+		// { //	
+		// 	"scope": "meta.object-literal.key.js",
+		// 	"settings": {
+		// 		// "foreground": "#99C794"
+		// 	}
+		// },
 		{
 			"scope": "meta.brace.round.ts, meta.brace.round.js,punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts",
 			"settings": {
-				"foreground": "#c4e606"
+				"foreground": "#c4e606",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1444,7 +1487,8 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#C678DD"
+				"foreground": "#C678DD",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1627,16 +1671,10 @@
 		},
 		{
 			"scope": [
-				"meta.object.member.js,meta.object.member.ts"
-			],
-			"settings": {}
-		},
-		{
-			"scope": [
 				"variable.other.object.js"
 			],
 			"settings": {
-				"foreground": "#E06C75"
+				"foreground": "#ECBE92"
 			}
 		},
 		{
@@ -1671,8 +1709,17 @@
 				"meta.var.expr.js"
 			],
 			"settings": {
-				"foreground": "#6699CC",
+				"foreground": "#99C794",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.js"
+			],
+			"settings": {
+				"foreground": "#71abe4ea",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1815,7 +1862,7 @@
 				"entity.name.function.xi"
 			],
 			"settings": {
-				"foreground": "#ECBE92"
+				"foreground": "#ECBE92",
 			}
 		},
 		{
@@ -2149,16 +2196,18 @@
 				"foreground": "#99C794",
 			}
 		},
-		{
-			"scope": "string.quoted.single.ts, string.quoted.single.js",
-			"settings": {
-				"foreground": "#99C794",
-			}
-		},
+		// {
+		// 	"scope": "string.quoted.single.ts, string.quoted.single.js",
+		// 	"settings": {
+		// 		"foreground": "#99C794",
+		// 		// "fontStyle": "bold"
+		// 	}
+		// },
 		{
 			"scope": "meta.import.js, meta.import.ts",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "",
+				"foreground": "#99C794"
 			}
 		},
 		{
@@ -2171,7 +2220,7 @@
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#6699CC",
+				"foreground": "#71abe4", //NOVO AZUL
 				"fontStyle": "italic"
 			}
 		},
@@ -2190,7 +2239,7 @@
 		{ //
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#6699CC"
+				"foreground": "#71abe4ea"
 			}
 		},
 		{
@@ -2230,7 +2279,7 @@
 		{
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#6699CC"
+				"foreground": "#71abe4ea"
 			}
 		},
 		{
