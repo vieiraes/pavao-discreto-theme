@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.50] - 2022-11-23
+### Fix
+- harmonized list tree color
+- Typescript theme commpleted
+
 
 ## [0.1.11] - 2022-11-11
 ### Features

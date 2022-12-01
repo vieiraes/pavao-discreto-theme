@@ -1,0 +1,64 @@
+{
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 16,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "extensions.ignoreRecommendations": true,
+    "typescript.tsserver.log": "off",
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        "*.tsx": "typescriptreact",
+        ".env.*": "dotenv",
+        ".prettierrc": "json"
+    },
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "editor.parameterHints.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.lineHeight": 26,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.showExitAlert": false,
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "typescript.suggest.autoImports": true,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.editor.labelFormat": "short",
+    "editor.fontLigatures": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "explorer.compactFolders": false,
+    "git.enableSmartCommit": true,
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontSize": 14,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        // "source.organizeImports": true
+    },
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**\/CVS": true,
+        "**\/.DS_Store": true,
+        "**\/.hg": true,
+        "**\/.svn": true,
+        "**\/.git": true
+    },
+    "window.zoomLevel": 1
+}
