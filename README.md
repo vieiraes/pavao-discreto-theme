@@ -10,11 +10,12 @@ https://www.jetbrains.com/lp/mono/
 - Javascript = 100%
 - Typescript = 100%
 - UML = 100%
+- Python = 70%
 
 In develop
 - HTML/CSS = 90%
 - Markdown = 50%
-- Python = 30%
+
   
 
 ### Feedback

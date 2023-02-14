@@ -81,7 +81,7 @@
 		"list.warningForeground": "#d19a66",
 		"list.activeSelectionIconForeground": "#e5ff00",
 		"tree.indentGuidesStroke": "#3344f0",
-		"tree.tableColumnsBorder":"#ff0000",
+		"tree.tableColumnsBorder": "#ff0000",
 		"menu.foreground": "#bfbfab",
 		"menu.separatorBackground": "#343a45",
 		"minimapGutter.addedBackground": "#109868",
@@ -106,7 +106,7 @@
 		"sideBarSectionHeader.background": "#272d40",
 		"sideBarSectionHeader.foreground": "#abb2bf",
 		// "sideBar.border": "#7959bfbd",
-		"sideBar.dropBackground":"#4d77cc65", 
+		"sideBar.dropBackground": "#4d77cc65",
 		"statusBar.debuggingBackground": "#cc6633",
 		"statusBar.debuggingBorder": "#66017a",
 		"statusBar.debuggingForeground": "#ffffff",
@@ -308,9 +308,10 @@
 			}
 		},
 		{
-			"scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python",
+			"scope": "punctuation.separator.period.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,punctuation.separator.colon.python",
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -323,6 +324,25 @@
 			"scope": "storage.modifier.lifetime.rust",
 			"settings": {
 				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"scope": "punctuation.definition.parameters.begin.python,punctuation.definition.parameters.end.python",
+			"settings": {
+				"foreground": "#C4E606"
+			}
+		},
+		{
+			"scope": "storage.type.function.python",
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "string.quoted.single.python",
+			"settings": {
+				"foreground": "#B9EE98C2"
 			}
 		},
 		{
@@ -356,7 +376,7 @@
 			}
 		},
 		{
-			"scope": "keyword.control.import.ts,keyword.control.import.js",
+			"scope": "keyword.control.import.ts,keyword.control.import.js,keyword.control.import.python",
 			"settings": {
 				"foreground": "#C594C5D3",
 				"fontStyle": "italic"
@@ -387,11 +407,17 @@
 			"settings": {
 				"foreground": "#B9EE98C2"
 			}
+		},
+		{
+			"scope": "punctuation.definition.dict.end.python",
+			"settings": {
+				"foreground": "#F3A862"
+			}
 		}, //
 		{
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#90f1ad",
+				"foreground": "#90F1AD",
 				"fontStyle": "bold"
 			}
 		},
@@ -768,7 +794,7 @@
 			}
 		},
 		{
-			"scope": "keyword.operator.logical.python",
+			"scope": "keyword.operator.logical.python,punctuation.separator.element.python",
 			"settings": {
 				"foreground": "#C678DD"
 			}
@@ -780,15 +806,22 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python",
+			"scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python",
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#C4E606"
 			}
 		},
 		{
 			"scope": "meta.function-call.generic.python",
 			"settings": {
 				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"scope": "punctuation.separator.arguments.python",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1381,6 +1414,12 @@
 			}
 		},
 		{
+			"scope": "source.python",
+			"settings": {
+				"foreground": "#99C794"
+			}
+		},
+		{
 			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
 			"settings": {
 				"foreground": "#5FB3B3",
@@ -1699,7 +1738,7 @@
 		},
 		{
 			"scope": [
-				"source.js,source.ts"
+				"source.js,source.ts,source.python"
 			],
 			"settings": {
 				"foreground": "#99C794"
@@ -1826,6 +1865,8 @@
 				"meta.arrow.ts",
 				"meta.block.js",
 				"meta.block.ts",
+				"meta.block.python",
+				"meta.arrow.python",
 			],
 			"settings": {
 				"foreground": "#c594c5d3",
@@ -2281,7 +2322,7 @@
 			}
 		},
 		{
-			"scope": "meta.import.js, meta.import.ts",
+			"scope": "meta.import.js, meta.import.ts, meta.import.python",
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#99C794"
