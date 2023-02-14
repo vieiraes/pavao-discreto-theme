@@ -409,7 +409,7 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.dict.end.python",
+			"scope": "punctuation.definition.dict.end.python,punctuation.definition.dict.begin.python",
 			"settings": {
 				"foreground": "#F3A862"
 			}
@@ -1416,7 +1416,7 @@
 		{
 			"scope": "source.python",
 			"settings": {
-				"foreground": "#99C794"
+				"foreground": "#DEB38AED"
 			}
 		},
 		{
@@ -1789,11 +1789,19 @@
 		},
 		{
 			"scope": [
-				"keyword.control.from.js,keyword.control.from.ts"
+				"keyword.control.from.js,keyword.control.from.ts,keyword.control.from.python"
 			],
 			"settings": {
 				"foreground": "#C594C5",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.decorator.python"
+			],
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -2267,6 +2275,7 @@
 		{
 			"scope": "keyword.control.import.python,keyword.control.flow.python",
 			"settings": {
+				"foreground": "#C678DD",
 				"fontStyle": "italic"
 			}
 		},
