@@ -1842,6 +1842,24 @@
 		},
 		{
 			"scope": [
+				"meta.interface.ts"
+			],
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.interface.ts"
+			],
+			"settings": {
+				"foreground": "#c594c5d3",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"scope": [
 				"storage.type.js"
 			],
 			"settings": {
