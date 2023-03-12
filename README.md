@@ -1,4 +1,4 @@
-![Alt text](storage/logo-pavao-discreto.png)
+![Alt text](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/logo-pavao-discreto.png)
 # pavao-discreto
 
 Download [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto).
@@ -39,8 +39,8 @@ art and logo by [Ruan Rodrigues](mailto:ru.1170@hotmail.com)
 
 ## Screenshots
 TypeScript
-![Alt text](storage/ts.png)
+![Alt text](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts.png)
 Python
-![Alt text](storage/py.png)
+![Alt text](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py.png)
 
 **Enjoy!**
