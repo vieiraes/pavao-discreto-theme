@@ -908,7 +908,7 @@
 			"scope": "punctuation.separator.period.python,punctuation.separator.colon.python",
 			"settings": {
 				"foreground": "#C678DD",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -2417,10 +2417,20 @@
 		},
 		{
 			"scope": [
-				"entity.name.function.decorator.python"
+				"keyword.control.from.js,keyword.control.from.ts,keyword.control.from.python"
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#C594C5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.decorator.python",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#C594C5D3"
 			}
 		},
 		{
@@ -2920,7 +2930,7 @@
 			}
 		},
 		{
-			"scope": "comment.block.documentation,punctuation",
+			"scope": "comment.block.documentation",
 			"settings": {
 				"foreground": "#61AFEF"
 			}
