@@ -1,0 +1,43 @@
+{
+  "name": "wordcount",
+  "displayName": "Word Count",
+  "version": "0.1.0",
+  "publisher": "ms-vscode",
+  "description": "Markdown Word Count Example - reports out the number of words in a Markdown file.",
+  "author": {
+    "name": "sean"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "main": "./out/extension",
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^0.10.x",
+    "typescript": "^1.6.2"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-wordcount/issues",
+    "email": "sean@contoso.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-wordcount.git"
+  },
+  "homepage": "https://github.com/microsoft/vscode-wordcount/blob/main/README.md"
+}
