@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [0.1.9] - 2023-03-26
+## [0.1.90] - 2023-03-26
 ### Feature
 - Java theme added
 
