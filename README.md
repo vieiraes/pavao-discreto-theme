@@ -9,7 +9,7 @@ Download [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Br
 * Recommended use with `Jet Brains Mono` font.
 https://www.jetbrains.com/lp/mono/
 
-* Suggestion setting.json
+* Suggestion settings.json
 ```
 {
   "editor.lineHeight": 30,
@@ -22,11 +22,11 @@ https://www.jetbrains.com/lp/mono/
 ```
 ---
 ## Color schemas
-
 - `Javacript` ✨ 100% ✨
 - `TypeScript` ✨ 100% ✨
 - `Python` ✨ 100% ✨
 - `UML` ✨ 100% ✨
+- `Java` ✨ 80% ✨
 - `HTML/CSS` ✨ 90% ✨
 - `Markdown` ✨ 50% ✨
 

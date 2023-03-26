@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.9] - 2023-03-26
+### Feature
+- Java theme added
+
+
 ## [0.1.67] - 2023-02-19
 ### Feature
 - Python theme completed
@@ -34,19 +39,13 @@ All notable changes to this project will be documented in this file.
 - Added intial schema for Python language
 
 
-
-
 ## [0.1.0] - 2022-06-4
 ### Features
 - Finished Javascript and TypeScript schema
 
-
-
 ## [0.0.5] - 2022-06-4
 ### Features
 - added logo design by Ruan Rodrigues (ru.1170@hotmail.com)
-
-
 
 ### Fix
 - fixed contrast in exlorer

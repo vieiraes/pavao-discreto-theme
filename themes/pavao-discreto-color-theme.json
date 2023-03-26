@@ -1111,13 +1111,109 @@
 		{
 			"scope": "source.java",
 			"settings": {
+				"foreground": "#DEB38AED"
+			}
+		},
+		{
+			"scope": "keyword.control.new.java",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "punctuation.bracket.round.java",
+			"settings": {
+				"foreground": "#C4E606"
+			}
+		},
+		{
+			"scope": "punctuation.section.method.begin.bracket.curly.java",
+			"settings": {
+				"foreground": "#F3A862"
+			}
+		},
+		{
+			"scope": "keyword.control.java",
+			"settings": {
 				"foreground": "#E06C75"
 			}
 		},
 		{
-			"scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java",
+			"scope": "punctuation.definition.string.begin.java,punctuation.definition.string.end.java",
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#90F1AD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "meta.import.java",
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "punctuation.terminator.java,punctuation.separator.java",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "storage.modifier.java",
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java",
+			"settings": {
+				"foreground": "#C4E606",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "string.quoted.double.java",
+			"settings": {
+				"foreground": "#B9EE98C2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "punctuation.separator.delimiter.java",
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.bracket.square.java",
+			"settings": {
+				"foreground": "#C4E606",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "keyword.operator.assignment.java,keyword.operator.comparison.java",
+			"settings": {
+				"foreground": "#5FB3B3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.definition.parameters.begin.bracket.round.java,punctuation.definition.parameters.end.bracket.round.java",
+			"settings": {
+				"foreground": "#C4E606",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java",
+			"settings": {
+				"foreground": "#C594C5D3",
+				"fontStyle": ""
 			}
 		},
 		{
