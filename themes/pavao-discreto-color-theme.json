@@ -1545,6 +1545,18 @@
 			}
 		},
 		{
+			"scope": "storage.type.local.java,storage.type.java",
+			"settings": {
+				"foreground": "#5FB3B3"
+			}
+		},
+		{
+			"scope": "punctuation.bracket.angle.java",
+			"settings": {
+				"foreground": "#C4E606"
+			}
+		},
+		{
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#C678DD"

@@ -1,7 +1,12 @@
 {
     "editor.lineHeight": 30,
-    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Fira Code','JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 16,
     "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontSize": 18,
+    "gitlens.graph.scrollRowPadding": 5,
+    "editor.scrollbar.scrollByPage": true,
+    "editor.scrollbar.verticalScrollbarSize": 14,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
 }
