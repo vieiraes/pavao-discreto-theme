@@ -1115,6 +1115,12 @@
 			}
 		},
 		{
+			"scope": "storage.type.primitive.java",
+			"settings": {
+				"foreground": "#5FB3B3"
+			}
+		},
+		{
 			"scope": "keyword.control.new.java",
 			"settings": {
 				"foreground": "#C678DD",
