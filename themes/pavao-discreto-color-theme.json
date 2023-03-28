@@ -1115,7 +1115,14 @@
 			}
 		},
 		{
-			"scope": "storage.type.primitive.java",
+			"scope": "meta.definition.variable.java",
+			"settings": {
+				"foreground": "#5FB3B3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "meta.method.return-type.java",
 			"settings": {
 				"foreground": "#E06C75",
 				"fontStyle": "italic"
@@ -1131,7 +1138,7 @@
 			"scope": "keyword.control.new.java",
 			"settings": {
 				"foreground": "#C678DD",
-				"fontStyle": "italic"
+				"fontStyle": "italic bold"
 			}
 		},
 		{
