@@ -1121,6 +1121,12 @@
 			}
 		},
 		{
+			"scope": "variable.other.definition.java",
+			"settings": {
+				"foreground": "#DEB38AED"
+			}
+		},
+		{
 			"scope": "keyword.control.new.java",
 			"settings": {
 				"foreground": "#C678DD",
