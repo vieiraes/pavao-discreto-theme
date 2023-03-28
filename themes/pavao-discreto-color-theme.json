@@ -1117,7 +1117,8 @@
 		{
 			"scope": "storage.type.primitive.java",
 			"settings": {
-				"foreground": "#5FB3B3"
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1208,6 +1209,13 @@
 			}
 		},
 		{
+			"scope": "meta.method.body.java",
+			"settings": {
+				"foreground": "#DEB38AED",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "keyword.operator.assignment.java,keyword.operator.comparison.java",
 			"settings": {
 				"foreground": "#5FB3B3",
@@ -1222,7 +1230,7 @@
 			}
 		},
 		{
-			"scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java",
+			"scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java",
 			"settings": {
 				"foreground": "#C594C5D3",
 				"fontStyle": ""
