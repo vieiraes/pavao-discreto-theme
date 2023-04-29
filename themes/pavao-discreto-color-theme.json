@@ -2263,10 +2263,30 @@
 				"foreground": "#E06C75"
 			}
 		},
+		// {
+		// 	"scope": "support.type.primitive.ts, support.type.primitive.tsx",
+		// 	"settings": {
+		// 		"foreground": "#E06C75"
+		// 	}
+		// },
 		{
-			"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
+			"scope": "support.type.builtin.ts,support.type.builtin.tsx",
 			"settings": {
-				"foreground": "#ECBE92"
+				"foreground": "#F273A2C8",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "variable.other.object.property.ts",
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"scope": "constant.language.null.ts",
+			"settings": {
+				"foreground": "#F273A2C8",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2351,7 +2371,8 @@
 				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#ECBE92"
+				"foreground": "#f273a2c8",
+				"fontStyle": "italic"
 			}
 		},
 		{
