@@ -1338,7 +1338,8 @@
 		{
 			"scope": "entity.name.type.ts",
 			"settings": {
-				"foreground": "#61AFEF"
+				"foreground": "#C594C5D3",
+				"fontStyle": "italic underline"
 			}
 		},
 		{
