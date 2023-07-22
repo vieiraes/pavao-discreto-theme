@@ -741,7 +741,19 @@
 	"tokenColors": [
 		//HTML
 		{
-			"scope": "punctuation.separator.key-value.html",
+			"scope": "meta.property-value.css",
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"scope": "meta.at-rule.media.header.css",
+			"settings": {
+				"foreground": "#DEB38AED"
+			}
+		},
+		{
+			"scope": "punctuation.separator.key-value.css",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#5FB3B3"
@@ -1352,7 +1364,7 @@
 			}
 		},
 		{
-			"scope": "support.type.vendored.property-name.css",
+			"scope": "meta.property-name.css",
 			"settings": {
 				"foreground": "#5FB3B3"
 			}
@@ -1780,12 +1792,6 @@
 			"scope": "support.function",
 			"settings": {
 				"foreground": "#5FB3B3"
-			}
-		},
-		{
-			"scope": "support.type.property-name",
-			"settings": {
-				"foreground": "#ABB2BF"
 			}
 		},
 		{
@@ -2529,7 +2535,8 @@
 				"entity.other.attribute-name.pseudo-class"
 			],
 			"settings": {
-				"foreground": "#5FB3B3"
+				"foreground": "#5FB3B3",
+				"fontStyle": "bold underline"
 			}
 		},
 		{

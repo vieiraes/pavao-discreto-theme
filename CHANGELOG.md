@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 
-## [0.2.0] - 2023-07-22
+## [0.2.1] - 2023-07-22
 ### Feature
 - HTML theme fix
 
