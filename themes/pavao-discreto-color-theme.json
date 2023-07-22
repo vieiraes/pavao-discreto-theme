@@ -127,7 +127,6 @@
 		"tab.inactiveBackground": "#151924",
 		"tab.inactiveModifiedBorder": "#151924",
 		"tab.inactiveForeground": "#787c85ca",
-		
 		// "tab.border": "#151924",
 		// "tab.unfocusedActiveBorder": "#151924",
 		"terminal.ansiBlack": "#3f4451",
@@ -740,10 +739,44 @@
 		//"window.inactiveBorder": null
 	},
 	"tokenColors": [
+		//HTML
+		{
+			"scope": "punctuation.separator.key-value.html",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#5FB3B3"
+			}
+		},
+		{
+			"scope": "text.html.derivative",
+			"settings": {
+				"foreground": "#B9EE98E9"
+			}
+		},
+		{
+			"scope": "entity.name.tag.html",
+			"settings": {
+				// "fontStyle": "italic",
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#DEB38AED"
+			}
+		},
+		{
+			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+			"settings": {
+				"foreground": "#C594C5D3",
+			}
+		},
 		{
 			"scope": "entity.name.tag.yaml",
 			"settings": {
-				"foreground": "#61AFEF"
+				"foreground": "#FFC66D"
 			}
 		},
 		{
