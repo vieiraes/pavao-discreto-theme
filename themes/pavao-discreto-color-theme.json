@@ -741,6 +741,27 @@
 	"tokenColors": [
 		//HTML
 		{
+			"scope": "meta.attribute.class.html",
+			"settings": {
+				"foreground": "#B9EE98E9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.separator.key-value.html",
+			"settings": {
+				"foreground": "#5FB3B3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "string.quoted.double.html",
+			"settings": {
+				"foreground": "#B9EE98E9",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "meta.property-value.css",
 			"settings": {
 				"foreground": "#D19A66"
@@ -776,13 +797,14 @@
 			"scope": "entity.other.attribute-name.html",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#DEB38AED"
+				"foreground": "#D19A66"
 			}
 		},
 		{
 			"scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
 			"settings": {
-				"foreground": "#C594C5D3",
+				"foreground": "#E06C75",
+				"fontStyle": "bold"
 			}
 		},
 		{

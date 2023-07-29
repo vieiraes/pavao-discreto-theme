@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.2.2] - 2023-07-29
+### Feature
+- HTML TAG theme fix
+
+
 ## [0.2.1] - 2023-07-22
 ### Feature
 - HTML theme fix
