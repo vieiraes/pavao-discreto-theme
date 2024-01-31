@@ -983,7 +983,8 @@
 		{
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
-				"foreground": "#ECBE92"
+				"foreground": "#C594C5D3",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -3135,7 +3136,8 @@
 		{
 			"scope": "variable.language.special.self.python",
 			"settings": {
-				"foreground": "#C594C5D3"
+				"foreground": "#C594C5D3",
+				"fontStyle": "italic"
 			}
 		},
 		{
