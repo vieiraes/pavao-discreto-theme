@@ -810,7 +810,7 @@
 		{
 			"scope": "entity.name.tag.yaml",
 			"settings": {
-				"foreground": "#FFC66D"
+				"foreground": "#C678DD"
 			}
 		},
 		{
@@ -835,6 +835,14 @@
 			"scope": "variable.other.generic-type.haskell",
 			"settings": {
 				"foreground": "#C678DD"
+			}
+		},
+		//JAVASCRIPT
+		{
+			"scope": "variable.object.property.ts",
+			"settings": {
+				"foreground": "#DEB38AED",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -983,8 +991,7 @@
 		{
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
-				"foreground": "#C594C5D3",
-				"fontStyle": "italic"
+				"foreground": "#ECBE92"
 			}
 		},
 		{
@@ -3084,6 +3091,14 @@
 		},
 		{
 			"scope": [
+				"entity.other.inherited-class.ts"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"scope": [
 				"entity.other.inherited-class"
 			],
 			"settings": {
@@ -3136,8 +3151,7 @@
 		{
 			"scope": "variable.language.special.self.python",
 			"settings": {
-				"foreground": "#C594C5D3",
-				"fontStyle": "italic"
+				"foreground": "#C594C5D3"
 			}
 		},
 		{
