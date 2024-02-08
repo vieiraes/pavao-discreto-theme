@@ -991,7 +991,8 @@
 		{
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
-				"foreground": "#ECBE92"
+				"foreground": "#C594C5D3",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -3151,7 +3152,8 @@
 		{
 			"scope": "variable.language.special.self.python",
 			"settings": {
-				"foreground": "#C594C5D3"
+				"foreground": "#C594C5D3",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -3313,7 +3315,7 @@
 			}
 		},
 		{
-			"scope": "storage.type.class.ts,storage.type.class.js,storage.modifier.ts,storage.modifier.js",
+			"scope": "storage.type.class.python,storage.type.class.ts,storage.type.class.js,storage.modifier.ts,storage.modifier.js",
 			"settings": {
 				"foreground": "#E06C75",
 				"fontStyle": "italic"
@@ -3328,10 +3330,17 @@
 				"fontStyle": "bold"
 			}
 		},
-		{
+		{ //support.function.magic.python
+			"scope": "support.function.magic.python",
+			"settings": {
+				"foreground": "#9a353d",
+				"fontStyle": "bold"
+			}
+		},
+		{ //
 			"scope": "variable.parameter.function.language.python",
 			"settings": {
-				"foreground": "#DEB38AED",
+				"foreground": "#F273A2C8",
 				"fontStyle": ""
 			}
 		},

@@ -1,16 +1,24 @@
-![Alt text](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/logo-pavao-discreto.png)
-# pavao-discreto
 
-Download [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto).
+![Pavão Discreto Logo](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/logo-pavao-discreto.png)
 
+# Pavão Discreto
 
-* "Theme is designed for developers who need a good visual contrast, and don't want to have the constriction effect after long hours of coding. This time has passed all this in a well balanced way, which you will surely enjoy."
+Pavão Discreto is a visually appealing and ergonomic theme for developers. Designed to provide excellent visual contrast without causing eye strain during prolonged coding sessions, it's perfect for those seeking a blend of style and comfort in their development environment.
 
-* Recommended use with `Jet Brains Mono` font.
-https://www.jetbrains.com/lp/mono/
+**Download**: [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto)
 
-* Suggestion settings.json
-```
+## Key Features
+- **Optimized Visual Contrast**: Reduces eye strain during long coding sessions.
+- **Wide Language Support**: Tailored color schemes for multiple programming languages.
+- **Customizable Settings**: Recommended settings provided for optimal experience.
+
+## Installation
+To install Pavão Discreto, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto) and click 'Install'. Follow the instructions to integrate it into your VS Code environment.
+
+## Recommended Settings
+Enhance your coding experience by adjusting these settings in VS Code:
+
+```json
 {
   "editor.lineHeight": 30,
   "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
@@ -18,29 +26,36 @@ https://www.jetbrains.com/lp/mono/
   "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.fontSize": 18,
 }
-
 ```
----
-## Color schemas
-- `Javacript` ✨ 100% ✨
-- `TypeScript` ✨ 100% ✨
-- `Python` ✨ 100% ✨
-- `UML` ✨ 100% ✨
-- `Java` ✨ 80% ✨
-- `HTML/CSS` ✨ 90% ✨
-- `Markdown` ✨ 50% ✨
 
+These settings enhance readability and comfort. For the best experience, use with the `Jet Brains Mono` font. Download it [here](https://www.jetbrains.com/lp/mono/).
 
-## Feedback
-Please report issues related to this theme on the repository page.
-development by [Bruno Vieira](mailto:vieira.es@gmail.com)
-art and logo by [Ruan Rodrigues](mailto:ru.1170@hotmail.com)
+## Language Compatibility
+- JavaScript ✨ 100% ✨
+- TypeScript ✨ 100% ✨
+- Python ✨ 100% ✨
+- UML ✨ 100% ✨
+- Java ✨ 80% ✨ (Improvements coming soon!)
+- HTML/CSS ✨ 90% ✨
+- Markdown ✨ 50% ✨ (Your feedback can help us enhance this!)
 
+## Feedback and Contributions
+Your feedback is invaluable to us. Report issues and suggest improvements on our [GitHub repository](https://github.com/vieiraes/pavao-discreto-theme/issues).
+
+## The Team
+- **Development**: Bruno Vieira ([vieira.es@gmail.com](mailto:vieira.es@gmail.com))
+- **Art and Logo**: Ruan Rodrigues ([ru.1170@hotmail.com](mailto:ru.1170@hotmail.com))
 
 ## Screenshots
-TypeScript
-![Alt text](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts.png)
-Python
-![Alt text](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py.png)
+Experience Pavão Discreto in action:
 
-**Enjoy!**
+- TypeScript
+  ![TypeScript Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts.png)
+
+- Python
+  ![Python Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py.png)
+
+## Enjoy!
+We hope you enjoy coding with Pavão Discreto as much as we enjoyed creating it. Happy coding!
+
+---

@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.2.9] - 2024-02-08
+- FIX python theme
+- FIX settings in VSCODE
+- FIX color self in pyhton
+
+
 ## [0.2.2] - 2023-07-29
 ### Feature
 - HTML TAG theme fix
