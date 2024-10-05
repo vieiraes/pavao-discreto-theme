@@ -3381,6 +3381,64 @@
 			"settings": {
 				"foreground": "#F273A2C8"
 			}
-		}
+		},
+		//PRISMA  
+		{
+			"scope": "entity.name.type.model.prisma,variable.language.relations.prisma",
+			"settings": {
+				"foreground": "#F3A862",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "variable.other.assignment.prisma,support.constant.constant.prisma",
+			"settings": {
+				"foreground": "#99C794"
+			}
+		}, //
+		{
+			"scope": "string.quoted.double.prisma",
+			"settings": {
+				"foreground": "#99C794"				
+			}
+		},
+		{
+			"scope": "string.quoted.double.end.prisma,string.quoted.double.start.prisma",
+			"settings": {
+				"foreground": "#99C794",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "entity.name.type.config.prisma",
+			"settings": {
+				"foreground": "#F3A862"
+			}
+		},
+		{
+			"scope": "storage.type.model.prisma",
+			"settings": {
+				"foreground": "#ECBE92"
+			}
+		},
+		{
+			"scope": "storage.type.config.prisma",
+			"settings": {
+				"foreground": "#ECBE92"
+			}
+		},
+
+		{
+			"scope": "source.prisma.attribute.with_arguments,source.prisma.attribute.with_arguments",
+			"settings": {
+				"foreground": "#ECBE92",
+				"fontStyle": "bold"
+			}
+		},
+		//
+		//
+		//
+		//entity.name.type.config.prisma
+		//			variable.language.relations.prisma
 	]
 }
