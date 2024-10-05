@@ -2,7 +2,7 @@
     "name": "pavao-discreto",
     "displayName": "pavao-discreto",
     "description": "For coders looking a good visual constrast and don't want to have the constriction effect after long hours of coding. This time has passed all this in a well balanced way, which you will surely enjoy. Colorized for Javascript, TypeScript and Pyhton.",
-    "version": "0.2.91",
+    "version": "0.2.94",
     "publisher": "BrunoVieira",
     "repository": {
         "type": "git",
@@ -19,8 +19,8 @@
         "theme": "dark"
     },
     "keywords": [
-        "amedigital",
         "bitcapital",
+        "accessibility",
         "theme",
         "dimmed",
         "eyes",
@@ -46,10 +46,7 @@
             }
         ]
     },
-    "dependencies": {
-        "vsce": "^2.14.0"
-    },
-    "bugs": {
+   "bugs": {
         "url": "https://github.com/vieiraes/pavao-discreto-theme/issues",
         "email": "vieira.es@gmail.com"
     }

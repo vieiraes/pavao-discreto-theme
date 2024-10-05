@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.2.94] - 2024-10-05
+- Added ENV params
+- Added Prisma ORM support
+- fix deprecated elements patterns
+
+
 ## [0.2.9] - 2024-02-08
 - FIX python theme
 - FIX settings in VSCODE

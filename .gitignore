@@ -2,3 +2,4 @@ node_modules
 **.vsix
 vsc**
 .vscode\settings.json
+colors.json
