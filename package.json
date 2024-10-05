@@ -45,10 +45,7 @@
             }
         ]
     },
-    "dependencies": {
-        "vsce": "^2.14.0"
-    },
-    "bugs": {
+   "bugs": {
         "url": "https://github.com/vieiraes/pavao-discreto-theme/issues",
         "email": "vieira.es@gmail.com"
     }
