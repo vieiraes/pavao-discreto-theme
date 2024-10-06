@@ -2,10 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
-## [0.2.94] - 2024-10-05
+## [0.2.95] - 2024-10-05
 - Added ENV params
 - Added Prisma ORM support
 - fix deprecated elements patterns
+- adjust some colors
 
 
 ## [0.2.9] - 2024-02-08
