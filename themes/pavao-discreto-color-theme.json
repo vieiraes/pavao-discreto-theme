@@ -1238,7 +1238,7 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.string.begin.java,punctuation.definition.string.end.java",
+			"scope": "punctuation.definition.string.begin.java,punctuation.definition.string.end.java,punctuation.definition.string.end.ts",
 			"settings": {
 				"foreground": "#90F1AD",
 				"fontStyle": "bold"
