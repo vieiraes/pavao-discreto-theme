@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 
+
+## [0.2.98] - 2024-10-05
+- fix comment block
+
 ## [0.2.95] - 2024-10-05
 - Added ENV params
 - Added Prisma ORM support

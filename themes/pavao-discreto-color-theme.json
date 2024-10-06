@@ -3268,7 +3268,7 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": "comment,comment.block.ts",
 			"settings": {
 				"foreground": "#96a2c760",
 				"fontStyle": "italic bold"
