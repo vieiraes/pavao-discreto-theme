@@ -2198,7 +2198,7 @@
 		{
 			"scope": "source.python",
 			"settings": {
-				"foreground": "#DEB38AED"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -2503,7 +2503,7 @@
 		},
 		{
 			"scope": [
-				"source.js,source.ts,source.python"
+				"source.js,source.ts"
 			],
 			"settings": {
 				"foreground": "#99C794"
