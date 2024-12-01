@@ -1019,7 +1019,7 @@
 			"scope": "storage.type.function.python",
 			"settings": {
 				"foreground": "#C594C5d3",
-				"fontStyle": "italic underline"
+				"fontStyle": "italic bold underline"
 			}
 		},
 		{
@@ -1588,7 +1588,7 @@
 			"scope": "constant.other.caps.python",
 			"settings": {
 				"foreground": "#DEB38AED",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -2576,6 +2576,15 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#C594C5d3"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.python",
+			],
+			"settings": {
+				"fontStyle": "italic bold",
+				"foreground": "#7fb0e2"
 			}
 		},
 		{
