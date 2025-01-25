@@ -2,18 +2,22 @@
 
 # Pavão Discreto: Your Essential Theme for Coding
 
-
-Discover the harmonious balance of modern aesthetics and visual comfort with Pavão Discreto. This meticulously crafted theme enhances contrast while minimizing eye strain, making it an ideal choice for prolonged coding sessions. By avoiding harsh white backgrounds and utilizing a finely-tuned dimmed mode, this theme ensures a smooth and pleasurable experience.
-
+Discover the harmonious balance of modern aesthetics and visual comfort with Pavão Discreto. Now featuring both Dark and Light themes, this meticulously crafted theme enhances contrast while minimizing eye strain, making it an ideal choice for prolonged coding sessions. By providing flexibility in theme selection and utilizing finely-tuned color schemes, this theme ensures a smooth and pleasurable experience regardless of your lighting preference.
 
 **Download**: [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto)
 
 ## Key Features
-- **Optimized Visual Contrast**: Reduces eye strain, allowing for comfortable extended coding periods.
-- **Wide Language Support**: Tailored color schemes for multiple programming languages.
-- **Customizable Settings**: Recommended settings provided for optimal experience.
-- **Individual File Type Customization**: Each file extension was worked on individually to ensure distinct visual differentiation. This means you can easily identify the type of file you are working with at a glance—rather than just creating a generic theme for the entire system, we focus on delivering quality and clarity for each file format.
+- **Two Carefully Crafted Themes**: Choose between Dark and Light versions, both optimized for visual comfort
+- **Optimized Visual Contrast**: Reduces eye strain in both themes, allowing for comfortable extended coding periods
+- **Wide Language Support**: Tailored color schemes for multiple programming languages in both themes
+- **Customizable Settings**: Recommended settings provided for optimal experience
+- **Individual File Type Customization**: Each file extension was worked on individually to ensure distinct visual differentiation in both themes. This means you can easily identify the type of file you are working with at a glance—rather than just creating generic themes, we focus on delivering quality and clarity for each file format.
 
+## Theme Selection
+To switch between themes:
+1. Press `Ctrl+K Ctrl+T` (Windows/Linux) or `Cmd+K Cmd+T` (Mac)
+2. Select either "Pavao Discreto Dark" or "Pavao Discreto Light"
+3. Or use the Command Palette (`Ctrl+Shift+P`) and search for "Color Theme"
 
 ## Installation
 To install Pavão Discreto, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto) and click 'Install'. Follow the instructions to integrate it into your VS Code environment.
@@ -47,24 +51,30 @@ These settings enhance readability and comfort. For the best experience, use wit
 - HTML/CSS ✨ 80% ✨
 
 ## Theme Philosophy
-Pavão Discreto is crafted with a focus on creating a comfortable coding experience, particularly for users with visual impairments. By avoiding white backgrounds and employing a dimmed mode, we aim to significantly reduce eye strain. The color scheme has been thoughtfully curated to ensure optimal contrast and readability.
+Pavão Discreto is crafted with a focus on creating a comfortable coding experience, particularly for users with visual impairments. Both our Dark and Light themes avoid pure white backgrounds and employ carefully selected color schemes to significantly reduce eye strain. The color schemes have been thoughtfully curated to ensure optimal contrast and readability in any lighting condition.
 
 We encourage users with monitors that support eye-safe functionality to enable it for an enhanced experience. Each file type features distinct color combinations for easy visual identification. We dedicated considerable effort to ensure that every extension was meticulously designed, allowing you to quickly discern the type of file you are working with at a glance.
 
 As a personal user of this theme, I have dedicated significant time and effort to its development to alleviate my own eye strain. I invite you to compare your comfort level before and after using Pavão Discreto. Furthermore, I continuously seek to adapt the theme for improved functionality.
 
-Please note that some macOS users have reported color adaptation issues; I apologize for any inconvenience this may cause, and I appreciate your understanding. Your enjoyment and feedback are invaluable—don’t forget to leave a positive review!
+Please note that some macOS users have reported color adaptation issues; I apologize for any inconvenience this may cause, and I appreciate your understanding. Your enjoyment and feedback are invaluable—don't forget to leave a positive review!
 
 ## Screenshots
 Experience Pavão Discreto in action:
 
+### Dark Theme
 - TypeScript
-  ![TypeScript Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts.png)
+  ![TypeScript Dark Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts.png)
 
 - Python
-  ![Python Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py.png)
+  ![Python Dark Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py.png)
 
+### Light Theme
+- TypeScript
+  ![TypeScript Light Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts-light.png)
 
+- Python
+  ![Python Light Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py-light.png)
 
 ## Feedback and Contributions
 Your feedback is invaluable to us. Report issues and suggest improvements on our [GitHub repository](https://github.com/vieiraes/pavao-discreto-theme/issues).

@@ -1,7 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-
+## [0.5.0] - 2025-01-24
+### Feature
+- Added Light Theme version
+- Renamed original theme to "Pavao Discreto Dark"
+- Improved theme selection and accessibility
+- Both themes optimized for minimal eye strain
+- Enhanced support for all supported languages in Light theme
+- Consistent color harmony between Dark and Light versions
 
 ## [0.2.98] - 2024-10-05
 - fix comment block
