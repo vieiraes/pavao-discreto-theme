@@ -2,7 +2,7 @@
     "name": "pavao-discreto",
     "displayName": "pavao-discreto",
     "description": "Experience ultimate visual comfort with Pavao Discreto - the meticulously crafted theme that revolutionizes your coding experience. Now featuring both Dark and Light themes, each with perfectly balanced contrast ratios and carefully selected color harmonies. Specifically designed for developers who code for extended periods, both themes ensure minimal eye strain and maximum productivity. Our scientifically-tuned color palettes are optimized for JavaScript, TypeScript, Python, and Prisma. Join thousands of developers who've discovered the perfect balance between aesthetics and eye comfort, now with the flexibility to choose your preferred lighting mode.",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "publisher": "BrunoVieira",
     "repository": {
         "type": "git",
@@ -42,7 +42,7 @@
             {
                 "label": "Pavao Discreto Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/pavao-discreto-dark-theme.json"
+                "path": "./themes/pavao-discreto-color-theme.json"
             },
             {
                 "label": "Pavao Discreto Light",
