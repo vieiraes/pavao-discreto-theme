@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.5.3] - 2025-01-24
+- Fix color for tsx files at dark theme
+
 ## [0.5.0] - 2025-01-24
 ### Feature
 - Added Light Theme version
