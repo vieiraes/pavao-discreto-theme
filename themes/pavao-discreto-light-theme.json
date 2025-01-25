@@ -1,0 +1,126 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "pavao-discreto-light",
+    "type": "light",
+    "colors": {
+        // Cores base (usando tons pastéis suaves)
+        "editor.background": "#EDF1F5",
+        "editor.foreground": "#2D3343",
+        "activityBar.background": "#E3E8ED",
+        "sideBar.background": "#E8ECF1",
+        "statusBar.background": "#E3E8ED80",
+        
+        // Cores de destaque adaptadas
+        "activityBarBadge.background": "#7FA346",
+        "activityBarBadge.foreground": "#EDF1F5",
+        "activityBar.activeBorder": "#7FA346",
+        "activityBar.foreground": "#2D3343",
+        "activityBar.inactiveForeground": "#2D334380",
+        
+        // Seleção e highlight
+        "editor.selectionBackground": "#7FA34630",
+        "editor.lineHighlightBackground": "#D8DEE4",
+        "editor.lineHighlightBorder": "#D8DEE4",
+        
+        // Tabs e painéis
+        "tab.activeBackground": "#D8DEE480",
+        "tab.activeForeground": "#2D3343",
+        "tab.inactiveBackground": "#E3E8ED",
+        "tab.inactiveForeground": "#2D334380",
+        "tab.activeBorder": "#7FA346",
+        
+        // Sidebar e menus
+        "sideBar.foreground": "#2D3343",
+        "sideBarTitle.foreground": "#2D3343",
+        "sideBarSectionHeader.background": "#D8DEE4",
+        "sideBarSectionHeader.foreground": "#2D3343",
+        
+        // Input e widgets
+        "input.background": "#D8DEE4",
+        "input.foreground": "#2D3343",
+        "editorWidget.background": "#E3E8ED",
+        "editorHoverWidget.background": "#E3E8ED",
+        "editorSuggestWidget.background": "#E3E8ED",
+        
+        // Scrollbar
+        "scrollbarSlider.background": "#C5CCD680",
+        "scrollbarSlider.hoverBackground": "#B8C0CA80",
+        "scrollbarSlider.activeBackground": "#A9B2BC80",
+        
+        // Lista e seleção
+        "list.activeSelectionBackground": "#D8DEE4",
+        "list.activeSelectionForeground": "#2D3343",
+        "list.hoverBackground": "#D8DEE480",
+        "list.hoverForeground": "#2D3343",
+        
+        // Terminal
+        "terminal.background": "#EDF1F5",
+        "terminal.foreground": "#2D3343",
+        "terminalCursor.foreground": "#7FA346"
+    },
+    "tokenColors": [
+        // Keywords e controle de fluxo
+        {
+            "scope": ["keyword", "keyword.control", "storage.type"],
+            "settings": {
+                "foreground": "#8B4513",
+                "fontStyle": "italic"
+            }
+        },
+        // Strings e textos
+        {
+            "scope": ["string", "string.quoted"],
+            "settings": {
+                "foreground": "#2F7A4D",
+                "fontStyle": ""
+            }
+        },
+        // Variáveis e propriedades
+        {
+            "scope": ["variable", "variable.other"],
+            "settings": {
+                "foreground": "#2B5B84",
+                "fontStyle": ""
+            }
+        },
+        // Funções
+        {
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#6B4C9A",
+                "fontStyle": "bold"
+            }
+        },
+        // Classes e tipos
+        {
+            "scope": ["entity.name.type", "support.class"],
+            "settings": {
+                "foreground": "#7B3D87",
+                "fontStyle": "bold"
+            }
+        },
+        // Comentários
+        {
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#6A737D",
+                "fontStyle": "italic"
+            }
+        },
+        // Números
+        {
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#976A41"
+            }
+        },
+        // Operadores
+        {
+            "scope": ["keyword.operator"],
+            "settings": {
+                "foreground": "#567A94",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+} 
