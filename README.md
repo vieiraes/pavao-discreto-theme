@@ -37,6 +37,16 @@ Enhance your coding experience by adjusting these settings in VS Code:
 
 These settings enhance readability and comfort. For the best experience, use with the `Jet Brains Mono` font. Download it [here](https://www.jetbrains.com/lp/mono/).
 
+## Recommended Icon Theme
+For the best visual experience, we recommend using the **Macish Icons** theme alongside Pavão Discreto. This icon theme provides a clean and modern look that perfectly complements our color scheme.
+
+Install it from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jo-te.macish-icons).
+
+To enable it:
+1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
+2. Type "File Icon Theme"
+3. Select "Macish Icons"
+
 ## Language Compatibility
 - JavaScript ✨ 100% ✨
 - TypeScript ✨ 100% ✨
