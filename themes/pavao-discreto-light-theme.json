@@ -4,66 +4,77 @@
     "type": "light",
     "colors": {
         // Cores base (usando tons pastéis suaves)
-        "editor.background": "#EDF1F5",
-        "editor.foreground": "#2D3343",
-        "activityBar.background": "#E3E8ED",
-        "sideBar.background": "#E8ECF1",
-        "statusBar.background": "#E3E8ED80",
+        "editor.background": "#F7F8FA",      // Ligeiramente mais quente e menos branco
+        "editor.foreground": "#323842",       // Um pouco mais suave que o preto quase puro
+        "activityBar.background": "#E5E9ED",  // Tom mais pastél e harmônico
+        "sideBar.background": "#EEF1F5",     // Mais suave e agradável
+        "statusBar.background": "#E4E7EB",    // Melhor contraste no rodapé
+        "statusBar.foreground": "#3E4A5A",    // Texto mais contrastante no rodapé
+        "statusBar.border": "#D0D5DC",        // Borda mais definida
         
         // Cores de destaque adaptadas
-        "activityBarBadge.background": "#7FA346",
+        "activityBarBadge.background": "#7FA34699", // Menos saturado
         "activityBarBadge.foreground": "#EDF1F5",
-        "activityBar.activeBorder": "#7FA346",
-        "activityBar.foreground": "#2D3343",
-        "activityBar.inactiveForeground": "#2D334380",
+        "activityBar.activeBorder": "#7FA34699", // Menos saturado
+        "activityBar.foreground": "#3D4453",
+        "activityBar.inactiveForeground": "#3D445380",
         
         // Seleção e highlight
-        "editor.selectionBackground": "#7FA34630",
-        "editor.lineHighlightBackground": "#D8DEE4",
-        "editor.lineHighlightBorder": "#D8DEE4",
+        "editor.selectionBackground": "#D8DEE4",
+        "editor.selectionHighlightBackground": "#DEE2E6",
+        "editor.lineHighlightBackground": "#E5E9ED",
+        "editor.lineHighlightBorder": "#E5E9ED",
         
         // Tabs e painéis
-        "tab.activeBackground": "#D8DEE480",
-        "tab.activeForeground": "#2D3343",
-        "tab.inactiveBackground": "#E3E8ED",
-        "tab.inactiveForeground": "#2D334380",
-        "tab.activeBorder": "#7FA346",
+        "tab.activeBackground": "#DEE2E680",
+        "tab.activeForeground": "#3D4453",
+        "tab.inactiveBackground": "#EDF0F4",
+        "tab.inactiveForeground": "#3D445380",
+        "tab.activeBorder": "#7FA34699", // Menos saturado
         
         // Sidebar e menus
-        "sideBar.foreground": "#2D3343",
-        "sideBarTitle.foreground": "#2D3343",
-        "sideBarSectionHeader.background": "#D8DEE4",
-        "sideBarSectionHeader.foreground": "#2D3343",
+        "sideBar.foreground": "#3D4453",
+        "sideBarTitle.foreground": "#3D4453",
+        "sideBarSectionHeader.background": "#E5E9ED",
+        "sideBarSectionHeader.foreground": "#3D4453",
         
         // Input e widgets
-        "input.background": "#D8DEE4",
-        "input.foreground": "#2D3343",
-        "editorWidget.background": "#E3E8ED",
-        "editorHoverWidget.background": "#E3E8ED",
-        "editorSuggestWidget.background": "#E3E8ED",
+        "input.background": "#E5E9ED",
+        "input.foreground": "#3D4453",
+        "editorWidget.background": "#EEF1F5",
+        "editorHoverWidget.background": "#EEF1F5",
+        "editorSuggestWidget.background": "#EEF1F5",
         
         // Scrollbar
-        "scrollbarSlider.background": "#C5CCD680",
-        "scrollbarSlider.hoverBackground": "#B8C0CA80",
-        "scrollbarSlider.activeBackground": "#A9B2BC80",
+        "scrollbarSlider.background": "#D0D5DC80",
+        "scrollbarSlider.hoverBackground": "#C5CCD680",
+        "scrollbarSlider.activeBackground": "#B8C0CA80",
         
         // Lista e seleção
-        "list.activeSelectionBackground": "#D8DEE4",
-        "list.activeSelectionForeground": "#2D3343",
-        "list.hoverBackground": "#D8DEE480",
-        "list.hoverForeground": "#2D3343",
+        "list.activeSelectionBackground": "#E5E9ED",
+        "list.activeSelectionForeground": "#3D4453",
+        "list.hoverBackground": "#E5E9ED80",
+        "list.hoverForeground": "#3D4453",
         
         // Terminal
-        "terminal.background": "#EDF1F5",
-        "terminal.foreground": "#2D3343",
-        "terminalCursor.foreground": "#7FA346"
+        "terminal.background": "#EEF1F5",
+        "terminal.foreground": "#323842",
+        "terminalCursor.foreground": "#7FA34699",
+        
+        // Melhorar contraste de texto
+        "editorLineNumber.foreground": "#828A95", // Números de linha mais visíveis
+        "titleBar.activeBackground": "#E5E9ED",
+        "titleBar.activeForeground": "#3D4453",
+        
+        // Painel e terminal
+        "panel.background": "#EEF1F5"
     },
     "tokenColors": [
         // Keywords e controle de fluxo
         {
             "scope": ["keyword", "keyword.control", "storage.type"],
             "settings": {
-                "foreground": "#8B4513",
+                "foreground": "#8D5A2F", // Marrom mais suave e pastél
                 "fontStyle": "italic"
             }
         },
@@ -71,15 +82,43 @@
         {
             "scope": ["string", "string.quoted"],
             "settings": {
-                "foreground": "#2F7A4D",
+                "foreground": "#35825A", // Verde mais suave e pastél
                 "fontStyle": ""
+            }
+        },
+        // Aspas simples e duplas em negrito
+        {
+            "scope": [
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        // Pontos em negrito
+        {
+            "scope": [
+                "punctuation.accessor",
+                "meta.delimiter.property.period"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        // Comentários de linha com dupla barra em negrito e itálico
+        {
+            "scope": ["comment.line.double-slash"],
+            "settings": {
+                "foreground": "#7D8590", // Cinza mais suave (mesma cor dos outros comentários)
+                "fontStyle": "bold italic"
             }
         },
         // Variáveis e propriedades
         {
             "scope": ["variable", "variable.other"],
             "settings": {
-                "foreground": "#2B5B84",
+                "foreground": "#3A6A93", // Azul mais suave e pastél
                 "fontStyle": ""
             }
         },
@@ -87,7 +126,7 @@
         {
             "scope": ["entity.name.function", "support.function"],
             "settings": {
-                "foreground": "#6B4C9A",
+                "foreground": "#725BA0", // Roxo mais suave e pastél
                 "fontStyle": "bold"
             }
         },
@@ -95,7 +134,7 @@
         {
             "scope": ["entity.name.type", "support.class"],
             "settings": {
-                "foreground": "#7B3D87",
+                "foreground": "#85578D", // Roxo mais suave e pastél
                 "fontStyle": "bold"
             }
         },
@@ -103,7 +142,7 @@
         {
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "foreground": "#6A737D",
+                "foreground": "#7D8590", // Cinza mais suave
                 "fontStyle": "italic"
             }
         },
@@ -111,16 +150,16 @@
         {
             "scope": ["constant.numeric"],
             "settings": {
-                "foreground": "#976A41"
+                "foreground": "#8E6845" // Marrom mais pastél
             }
         },
         // Operadores
         {
             "scope": ["keyword.operator"],
             "settings": {
-                "foreground": "#567A94",
+                "foreground": "#5D7F99", // Azul-cinza mais suave
                 "fontStyle": "bold"
             }
         }
     ]
-} 
+}
