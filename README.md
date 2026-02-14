@@ -73,6 +73,70 @@ To enable it:
 - Prisma ORM ✨ 100% ✨
 - Markdown ✨ 100% ✨
 - HTML/CSS ✨ 80% ✨
+- **React/JSX/TSX** ✨ **100%** ✨
+- **Shell Script / Bash** ✨ **100%** ✨
+
+## React Development Support
+Pavão Discreto now features **dedicated color optimization for React/JSX/TSX** development! We've added comprehensive syntax highlighting rules specifically designed to improve code readability when working with React:
+
+### What's Optimized:
+- **Component Tags**: Both custom and native React components have distinct, bold styling for easy identification
+- **JSX/TSX Attributes**: Props are styled with italic formatting and contrasting colors for clear visual separation
+- **React Hooks**: Special highlighting for hooks (useState, useEffect, etc.) with italic bold styling
+- **JSX Expressions**: Curly braces `{}` in JSX have bold, distinctive colors for better visual parsing
+- **Fragment Tags**: `<>` and `</>` are properly highlighted
+- **JSDoc Comments**: Enhanced support for React component documentation
+- **this/super Keywords**: Special styling for class component keywords
+
+### Color Differentiation:
+- **Dark Theme**: 
+  - Component tags: `#E06C75` (coral)
+  - Props: `#D19A66` (orange)
+  - Tag punctuation: `#C678DDd3` (purple)
+  - JSX expressions: `#5FB3B3` (cyan)
+  - Hooks: `#C678DDd3` (purple italic bold)
+
+- **Light Theme**: 
+  - Component tags: `#A8455D` (muted coral)
+  - Props: `#8E6845` (brown)
+  - Tag punctuation: `#8D5A9F` (purple)
+  - JSX expressions: `#3D8B8B` (teal)
+  - Hooks: `#8D5A9F` (purple italic bold)
+
+This specialized support makes React code significantly more readable by creating clear visual distinctions between different syntax elements, reducing confusion and improving your development workflow.
+
+## Shell Script / Bash Support
+Pavão Discreto now features **comprehensive Shell Script optimization** for improved DevOps and automation workflow!
+
+### What's Optimized:
+- **Shebang**: `#!/bin/bash` highlighted with bold italic purple styling
+- **Keywords**: Control structures (`if`, `then`, `else`, `fi`, `for`, `while`, `case`, etc.) with italic bold purple
+- **Built-in Commands**: `echo`, `cd`, `ls`, `mkdir`, etc. in bold blue
+- **Variables**: `$var`, `${var}`, `$1`, `$@` in coral/red with bold punctuation
+- **Strings**: Both single and double quotes in green
+- **Pipes & Redirections**: `|`, `>`, `>>`, `<` in bold cyan
+- **Operators**: Assignment (`=`) and comparison (`-eq`, `-ne`, etc.) in cyan
+- **Functions**: Custom function names in purple bold
+- **Comments**: Subdued gray with italic styling
+- **Numbers**: Orange/brown colors for constants
+- **Escape Characters**: Special highlighting with italic styling
+
+### Color Scheme:
+**Dark Theme**:
+- Keywords: `#C678DDd3` (purple)
+- Built-ins: `#61AFEF` (blue)
+- Variables: `#E06C75` (coral)
+- Strings: `#98C379` (green)
+- Pipes/Redirects: `#5FB3B3` (cyan)
+
+**Light Theme**:
+- Keywords: `#8D5A9F` (purple)
+- Built-ins: `#3A6A93` (blue)
+- Variables: `#A8455D` (muted coral)
+- Strings: `#2E7550` (green)
+- Pipes/Redirects: `#3D8B8B` (teal)
+
+Perfect for DevOps engineers, system administrators, and developers working with automation scripts!
 
 ## Theme Philosophy
 Pavão Discreto is crafted with a focus on creating a comfortable coding experience, particularly for users with visual impairments. Both our Dark and Light themes avoid pure white backgrounds and employ carefully selected color schemes to significantly reduce eye strain. The color schemes have been thoughtfully curated to ensure optimal contrast and readability in any lighting condition.

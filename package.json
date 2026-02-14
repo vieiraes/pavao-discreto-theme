@@ -1,8 +1,8 @@
 {
     "name": "pavao-discreto",
     "displayName": "pavao-discreto",
-    "description": "Experience ultimate visual comfort with Pavao Discreto - the meticulously crafted theme that revolutionizes your coding experience. Now featuring both Dark and Light themes, each with perfectly balanced contrast ratios and carefully selected color harmonies. Specifically designed for developers who code for extended periods, both themes ensure minimal eye strain and maximum productivity. Our scientifically-tuned color palettes are optimized for JavaScript, TypeScript, Python, and Prisma. Join thousands of developers who've discovered the perfect balance between aesthetics and eye comfort, now with the flexibility to choose your preferred lighting mode.",
-    "version": "0.6.4",
+    "description": "Experience ultimate visual comfort with Pavao Discreto - the meticulously crafted theme that revolutionizes your coding experience. Now featuring both Dark and Light themes, each with perfectly balanced contrast ratios and carefully selected color harmonies. Specifically designed for developers who code for extended periods, both themes ensure minimal eye strain and maximum productivity. Our scientifically-tuned color palettes are optimized for JavaScript, TypeScript, React/JSX/TSX, Python, Shell Script/Bash, and Prisma with dedicated syntax highlighting for React and DevOps workflows. Join thousands of developers who've discovered the perfect balance between aesthetics and eye comfort, now with the flexibility to choose your preferred lighting mode.",
+    "version": "0.7.3",
     "publisher": "BrunoVieira",
     "repository": {
         "type": "git",
@@ -36,7 +36,18 @@
         "readable",
         "dark",
         "contrast",
-        "pavao-discreto"
+        "pavao-discreto",
+        "react",
+        "jsx",
+        "tsx",
+        "react-theme",
+        "javascript",
+        "typescript",
+        "shell",
+        "bash",
+        "shell-script",
+        "devops",
+        "automation"
     ],
     "engines": {
         "vscode": "^1.66.0"

@@ -1,6 +1,141 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.3] - 2026-02-14
+### Shell Script - Additional Scopes Coverage
+**Enhancement**: Added missing color rules for Shell Script variable assignments and base scope
+
+#### Added
+- **`variable.other.assignment.shell`**: Variables being assigned with bold coral/red color
+  - Dark theme: `#E06C75` (coral bold)
+  - Light theme: `#A8455D` (muted coral bold)
+  - Example: `VAR=value` - VAR now properly highlighted
+
+- **`meta.expression.assignment.shell`**: Assignment expression context
+  - Dark theme: `#ABB2BF` (subdued gray)
+  - Light theme: `#5D6978` (dark gray)
+  - Provides proper context for assignment statements
+
+- **`source.shell`**: Base Shell Script file scope
+  - Dark theme: `#ABB2BF` (subdued gray)
+  - Light theme: `#2D3845` (dark foreground)
+  - Ensures all shell content has proper default coloring
+
+#### Why This Update?
+These scopes were previously using the default editor foreground color, which could appear too bright (close to white) in some contexts. By explicitly defining colors for these scopes, we ensure:
+- Complete adherence to the "no white" theme philosophy
+- Better visual distinction for variable assignments
+- Consistent coloring across all shell script elements
+
+## [0.7.2] - 2026-02-14
+### Bug Fixes - White Color Removal
+**Critical Fix**: Removed all white colors from theme following theme philosophy
+
+#### Fixed
+- **Shell Script Arguments**: Added specific color rules for `string.unquoted.argument.shell` and `meta.argument.shell`
+  - Dark theme: `#ABB2BF` (subdued gray)
+  - Light theme: `#5D6978` (dark gray)
+  - Previously these were using the default editor color (`#C5CAD3`) which was too bright
+
+- **Invalid/Error Tokens**: Replaced white (`#FFFFFF`) with appropriate error colors
+  - `invalid.illegal`: Now uses `#F44747` (bright red)
+  - `invalid.broken`: Now uses `#F44747` (bright red)
+  - `invalid.deprecated`: Now uses `#E5C07B` (yellow/orange)
+  - `invalid.unimplemented`: Now uses `#D19A66` (orange)
+
+- **Debugger Keyword**: Changed from white to `#E5C07B` (yellow) with bold underline
+
+- **Light Theme Status Bar**: Debug mode foreground changed from `#FFFFFF` to `#F5F7F9` (very light gray)
+
+#### Theme Philosophy Compliance
+The theme follows a strict rule: **No pure white colors allowed**. This update ensures complete compliance by:
+- Using subdued grays for regular text elements
+- Using vibrant colors (red, yellow, orange) for errors and warnings
+- Maintaining visual comfort and reduced eye strain
+
+All shell script elements now have properly dimmed colors while maintaining excellent readability and visual hierarchy.
+
+## [0.7.1] - 2026-02-14
+### Shell Script / Bash Support 🐚
+**Major Enhancement**: Comprehensive Shell Script color optimization for DevOps and automation
+
+#### Added
+- **Shebang Highlighting**: `#!/bin/bash` with bold italic purple styling for immediate file type recognition
+- **Control Structure Keywords**: `if`, `then`, `else`, `elif`, `fi`, `for`, `while`, `do`, `done`, `case`, `esac`, `until`, `in` with italic bold styling
+- **Built-in Commands**: Special highlighting for shell built-ins (`echo`, `cd`, `ls`, `mkdir`, `rm`, etc.) in bold blue
+- **Variable Syntax**: Comprehensive support for:
+  - Normal variables: `$var`, `${var}`
+  - Positional parameters: `$1`, `$2`, `$@`, `$*`
+  - Special variables: `$$`, `$?`, `$!`
+  - Variable punctuation with bold styling
+- **String Handling**: Distinct colors for single and double quotes with bold punctuation
+- **Operators & Redirections**:
+  - Pipes: `|` in bold cyan
+  - Redirections: `>`, `>>`, `<`, `2>&1` in bold cyan
+  - Assignment: `=` in cyan bold
+  - Comparisons: `-eq`, `-ne`, `-lt`, `-gt`, etc. in cyan bold
+- **Function Definitions**: Custom function names in purple bold
+- **Numeric Constants**: Orange/brown styling
+- **Comments**: Subdued gray with italic for reduced visual noise
+- **Escape Characters**: Special italic styling for `\n`, `\t`, etc.
+- **Array Support**: Highlighting for array syntax
+
+#### Enhanced
+- Clear visual hierarchy between commands, variables, and strings
+- Bold styling for important syntax elements (pipes, redirects, operators)
+- Consistent color palette aligned with theme philosophy
+- Both Dark and Light themes fully supported
+
+#### Why This Update?
+Shell scripts can be visually confusing with mixed variables, strings, commands, and operators. This update creates clear visual distinctions for:
+- Commands vs. variables vs. strings
+- Control flow structures
+- Input/output redirections
+- Variable declarations and expansions
+
+The result is dramatically improved readability for DevOps, CI/CD scripts, and system automation.
+
+## [0.7.0] - 2026-02-14
+### React/JSX/TSX Optimization 🎉
+**Major Enhancement**: Comprehensive React development support with dedicated color optimization
+
+#### Added
+- **React Component Tags**: Bold styling for both custom and native React components with distinct coral colors
+  - Dark theme: `#E06C75` (coral)
+  - Light theme: `#A8455D` (muted coral)
+- **JSX/TSX Attributes (Props)**: Italic formatting with contrasting colors for clear visual separation
+  - Dark theme: `#D19A66` (orange)
+  - Light theme: `#8E6845` (brown)
+- **React Hooks Support**: Special highlighting for hooks (useState, useEffect, etc.) with italic bold styling
+  - Both themes: Purple tones with emphasis
+- **JSX Expressions**: Distinctive bold colors for curly braces `{}` in JSX
+  - Dark theme: `#5FB3B3` (cyan)
+  - Light theme: `#3D8B8B` (teal)
+- **Tag Punctuation**: Bold purple styling for `<`, `>`, `</` and `/>`
+- **Fragment Tags**: Proper highlighting for `<>` and `</>`
+- **JSDoc Comments**: Enhanced support for React component documentation
+- **Class Component Keywords**: Special styling for `this` and `super` in React class components
+
+#### Enhanced
+- Complete visual separation between different React syntax elements
+- Improved readability for complex JSX structures
+- Better distinction between HTML tags and React components
+- Optimized color contrast for both Dark and Light themes
+
+#### Documentation
+- Added dedicated "React Development Support" section in README
+- Updated package.json description to highlight React optimization
+- Added React-related keywords: react, jsx, tsx, react-theme
+
+### Why This Update?
+React developers often struggle with visual clarity in JSX/TSX files due to mixed JavaScript and HTML-like syntax. This update addresses that by creating clear visual distinctions between:
+- Component tags vs. regular HTML elements
+- Props vs. JavaScript variables
+- JSX expressions vs. regular code
+- Hooks vs. regular function calls
+
+The result is significantly improved code readability and reduced cognitive load when working with React.
+
 ## [0.6.4] - 2026-02-14
 ### Light Theme - Major Enhancement (Macintosh Style)
 - Complete harmonization with Dark theme: ported all 1000+ token color rules from dark theme
