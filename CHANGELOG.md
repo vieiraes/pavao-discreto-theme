@@ -1,6 +1,34 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.8] - 2026-02-14
+### String Colors Unification - Mint Green Theme
+**Major Change**: Unified all string colors to mint green across JavaScript/TypeScript/React
+
+#### Changed
+**Dark Theme Strings**:
+- All string types now use mint green `#5FCC88D9` (with dimmed transparency)
+- Affected scopes:
+  - `string.js` - JavaScript strings
+  - `string.template.js` - Template literals
+  - `string.quoted.double.js` - Double-quoted strings
+  - `string.quoted.single` - Single-quoted strings
+  - `string.quoted.double` - Generic double-quoted strings
+  - `string.template` - Generic template strings
+  - `punctuation.definition.string.template.*` - Template literal punctuation (backticks)
+
+**Light Theme Strings**:
+- All string types now use darker mint green `#2B9B6A` with **bold** style
+- Same scopes as dark theme with bold font weight for enhanced visibility
+- Better contrast on light background while maintaining the mint green harmony
+
+#### Theme Philosophy
+- Moved away from multiple green tones to unified mint green
+- Creates visual consistency across all string types
+- Inspired by sash hover border color for cohesive UI experience
+- Dark theme: Soft dimmed appearance for reduced eye strain
+- Light theme: Bold appearance for clear readability
+
 ## [0.7.7] - 2026-02-14
 ### Critical Theme Philosophy Fix - No Gray Tones Except Comments
 **Major Change**: Removed ALL gray tones from code elements - gray reserved ONLY for comments
