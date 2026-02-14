@@ -1,6 +1,25 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.6.3] - 2026-02-13
+### Enhanced
+- Dark theme refactored with "dimmed" aesthetic for reduced eye strain
+- Improved text contrast: editor foreground (#C5CAD3), sidebar titles (#D0D5DD)
+- Terminal and panel backgrounds now use wine-tinted tone (#1A0F15) for better visual separation from editor
+- All UI borders updated to discrete but defined color (#2A3544)
+
+### Added
+- Comprehensive JavaScript/TypeScript scope coverage with 10+ new harmonious color rules
+- Language constants (`this`, `super`, `true`, `false`, `null`, `undefined`) with italic style
+- Control flow keywords (`if`, `else`, `switch`, `for`, `while`, `try`, `catch`) with purple tone and italic
+- Async/await keywords with distinct purple variant and italic
+- Spread/rest operator (`...`) with cyan color and bold style
+- Function parameters with orange tone
+
+### Fixed
+- Added missing foreground colors to 3 scopes (punctuation.terminator, keyword.control.note, support.class.builtin)
+- Improved overall theme consistency and color harmony
+
 ## [0.5.3] - 2025-01-24
 - Fix color for tsx files at dark theme
 
