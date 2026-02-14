@@ -126,14 +126,14 @@ Pavão Discreto now features **comprehensive Shell Script optimization** for imp
 - Keywords: `#C678DDd3` (purple)
 - Built-ins: `#61AFEF` (blue)
 - Variables: `#E06C75` (coral)
-- Strings: `#98C379` (green)
+- Strings: `#5FCC88D9` (mint green with dimmed transparency)
 - Pipes/Redirects: `#5FB3B3` (cyan)
 
 **Light Theme**:
 - Keywords: `#8D5A9F` (purple)
 - Built-ins: `#3A6A93` (blue)
 - Variables: `#A8455D` (muted coral)
-- Strings: `#2E7550` (green)
+- Strings: `#2B9B6A` (mint green, bold)
 - Pipes/Redirects: `#3D8B8B` (teal)
 
 Perfect for DevOps engineers, system administrators, and developers working with automation scripts!
