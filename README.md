@@ -2,14 +2,28 @@
 
 # Pavão Discreto: Your Essential Theme for Coding
 
+## Preview
+
+### Dark Theme - Dimmed Aesthetic
+![Dark Theme Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_dark.jpg)
+
+### Light Theme - Macintosh Style
+![Light Theme Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_light.jpg)
+
+---
+
 Discover the harmonious balance of modern aesthetics and visual comfort with Pavão Discreto. Now featuring both Dark and Light themes, this meticulously crafted theme enhances contrast while minimizing eye strain, making it an ideal choice for prolonged coding sessions. By providing flexibility in theme selection and utilizing finely-tuned color schemes, this theme ensures a smooth and pleasurable experience regardless of your lighting preference.
 
 **Download**: [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto)
 
 ## Key Features
 - **Two Carefully Crafted Themes**: Choose between Dark and Light versions, both optimized for visual comfort
+  - **Dark Theme**: Dimmed aesthetic with wine-tinted terminal for reduced eye strain
+  - **Light Theme**: Macintosh-style with soft grays, muted colors, and bluish terminal - professional and comfortable for extended use
 - **Optimized Visual Contrast**: Reduces eye strain in both themes, allowing for comfortable extended coding periods
-- **Wide Language Support**: Tailored color schemes for multiple programming languages in both themes
+- **Wide Language Support**: Tailored color schemes for multiple programming languages in both themes (1000+ token color rules)
+- **Complete Git Integration**: Visual indicators for file status, line changes, and diff viewing in both themes
+- **Advanced Editor Features**: Line numbers, bracket matching, indent guides, debug mode, and minimap indicators
 - **Customizable Settings**: Recommended settings provided for optimal experience
 - **Individual File Type Customization**: Each file extension was worked on individually to ensure distinct visual differentiation in both themes. This means you can easily identify the type of file you are working with at a glance—rather than just creating generic themes, we focus on delivering quality and clarity for each file format.
 
@@ -63,6 +77,10 @@ To enable it:
 ## Theme Philosophy
 Pavão Discreto is crafted with a focus on creating a comfortable coding experience, particularly for users with visual impairments. Both our Dark and Light themes avoid pure white backgrounds and employ carefully selected color schemes to significantly reduce eye strain. The color schemes have been thoughtfully curated to ensure optimal contrast and readability in any lighting condition.
 
+**Dark Theme**: Features a dimmed aesthetic with discrete borders and wine-tinted terminal/panel backgrounds, creating visual separation while maintaining comfort.
+
+**Light Theme**: Inspired by the classic Macintosh aesthetic, featuring soft grays, muted professional colors, and a bluish terminal background. The neutral gray editor (#F5F7F9) contrasts beautifully with the bluish terminal (#DDE8F4), providing clear visual areas without brightness fatigue. Over 1200 carefully adapted color rules ensure every language looks harmonious and professional.
+
 We encourage users with monitors that support eye-safe functionality to enable it for an enhanced experience. Each file type features distinct color combinations for easy visual identification. We dedicated considerable effort to ensure that every extension was meticulously designed, allowing you to quickly discern the type of file you are working with at a glance.
 
 As a personal user of this theme, I have dedicated significant time and effort to its development to alleviate my own eye strain. I invite you to compare your comfort level before and after using Pavão Discreto. Furthermore, I continuously seek to adapt the theme for improved functionality.
@@ -72,19 +90,15 @@ Please note that some macOS users have reported color adaptation issues; I apolo
 ## Screenshots
 Experience Pavão Discreto in action:
 
-### Dark Theme
-- TypeScript
-  ![TypeScript Dark Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts.png)
+### Dark Theme Preview
+Get a complete view of the Dark theme workspace:
 
-- Python
-  ![Python Dark Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py.png)
+![Pavao Discreto Dark Theme Full Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_dark.jpg)
 
-### Light Theme
-- TypeScript
-  ![TypeScript Light Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/ts-light.png)
+### Light Theme Preview (Macintosh Style)
+Get a complete view of the Light theme workspace:
 
-- Python
-  ![Python Light Theme Screenshot](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/py-light.png)
+![Pavao Discreto Light Theme Full Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_light.jpg)
 
 ## Feedback and Contributions
 Your feedback is invaluable to us. Report issues and suggest improvements on our [GitHub repository](https://github.com/vieiraes/pavao-discreto-theme/issues).

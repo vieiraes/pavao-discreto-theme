@@ -1,6 +1,31 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.6.4] - 2026-02-14
+### Light Theme - Major Enhancement (Macintosh Style)
+- Complete harmonization with Dark theme: ported all 1000+ token color rules from dark theme
+- All languages now fully supported: JavaScript, TypeScript, Python, Java, HTML/CSS, YAML, JSON, ENV, Prisma ORM, Markdown
+- Macintosh-style aesthetic: soft grays and muted colors for comfortable extended use
+- Terminal and panel backgrounds now use bluish tone (#DDE8F4) for visual contrast with editor
+
+### Added to Light Theme
+- Terminal ANSI colors (16 colors) - harmonious with Macintosh style
+- Git decorations (7 states: added, modified, deleted, untracked, ignored, conflicting, submodule)
+- Editor gutter with Git indicators (added/modified/deleted line markers)
+- Debug toolbar with distinct orange status bar in debug mode
+- Bracket matching with subtle blue highlighting
+- Minimap gutter indicators for Git changes
+- Diff editor colors for file comparison
+- Indent guides with active guide highlighting
+- Whitespace and ruler colors
+- Line number colors with active line emphasis
+
+### Light Theme Design Philosophy
+- Inspired by classic Macintosh aesthetic: muted, professional, comfortable
+- Neutral gray editor background (#F5F7F9) contrasts with bluish terminal (#DDE8F4)
+- All colors carefully adapted from dark theme to maintain harmony
+- Optimized for extended coding sessions with reduced brightness
+
 ## [0.6.3] - 2026-02-13
 ### Enhanced
 - Dark theme refactored with "dimmed" aesthetic for reduced eye strain
