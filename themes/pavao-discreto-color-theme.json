@@ -47,10 +47,12 @@
 		"editor.selectionBackground": "#6776963a",
 		"editor.selectionHighlightBackground": "#6776962a",
 		"editor.selectionHighlightBorder": "#6776962a",
-		"editor.wordHighlightBackground": "#67769630",
-		"editor.wordHighlightBorder": "#7f848e80",
-		"editor.wordHighlightStrongBackground": "#abb2bf18",
-		"editor.wordHighlightStrongBorder": "#7f848e80",
+		"editor.wordHighlightBackground": "#10b98180",
+		"editor.wordHighlightBorder": "#10b981cc",
+		"editor.wordHighlightStrongBackground": "#10b98199",
+		"editor.wordHighlightStrongBorder": "#10b981",
+		"editor.wordHighlightTextBackground": "#10b98166",
+		"editor.wordHighlightTextBorder": "#10b981aa",
 		"editorBracketMatch.background": "#3343f040",
 		"editorBracketMatch.border": "#3344f099",
 		"editorCursor.background": "#00ff62",
@@ -72,11 +74,23 @@
 		"editorRuler.foreground": "#abb2bf18",
 		"editorSuggestWidget.background": "#14161F",
 		"editorSuggestWidget.border": "#2A3544",
-		"editorSuggestWidget.selectedBackground": "#1A1D2A",
+		"editorSuggestWidget.selectedBackground": "#10b98133",
+		"editorSuggestWidget.selectedForeground": "#D0D5DD",
+		"editorSuggestWidget.highlightForeground": "#10b981",
+		"editorSuggestWidget.focusHighlightForeground": "#10b981",
+		"editorSuggestWidget.selectedIconForeground": "#10b981",
 		"editorWarning.foreground": "#d19a66",
 		"editorWhitespace.foreground": "#74b9ff40",
 		"editorWidget.background": "#14161F",
 		"editorWidget.border": "#2A3544",
+		"editorInlayHint.background": "#10b98133",
+		"editorInlayHint.foreground": "#ABB2BF",
+		"editorInlayHint.typeForeground": "#ABB2BF",
+		"editorInlayHint.typeBackground": "#10b98133",
+		"editorInlayHint.parameterForeground": "#ABB2BF",
+		"editorInlayHint.parameterBackground": "#10b98133",
+		"editorGhostText.foreground": "#10b981aa",
+		"editorGhostText.background": "#10b98133",
 		"focusBorder": "#5FB3B366",
 		"gitDecoration.ignoredResourceForeground": "#636b7866",
 		"input.background": "#0D0F17",
@@ -319,6 +333,49 @@
 			"settings": {
 				"foreground": "#DEB38AED",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "variable.other.property.tsx",
+			"settings": {
+				"foreground": "#DEB38AED",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "variable.other.property.jsx",
+			"settings": {
+				"foreground": "#DEB38AED",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.block.tsx",
+				"meta.block.jsx",
+				"meta.block.ts",
+				"meta.block.js"
+			],
+			"settings": {
+				"foreground": "#D4A574"
+			}
+		},
+		{
+			"scope": [
+				"meta.function.tsx",
+				"meta.function.jsx"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"source.jsx"
+			],
+			"settings": {
+				"foreground": "#D4A574"
 			}
 		},
 		{
@@ -1735,7 +1792,7 @@
 				"meta.tag.tsx meta.jsx.children"
 			],
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#9BB86E"
 			}
 		},
 		{
@@ -2022,7 +2079,7 @@
 				"meta.argument.shell"
 			],
 			"settings": {
-				"foreground": "#ABB2BF",
+				"foreground": "#D4A574",
 				"fontStyle": ""
 			}
 		},
@@ -2040,7 +2097,7 @@
 				"meta.expression.assignment.shell"
 			],
 			"settings": {
-				"foreground": "#ABB2BF",
+				"foreground": "#9BB86E",
 				"fontStyle": ""
 			}
 		},
@@ -2049,7 +2106,7 @@
 				"source.shell"
 			],
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#D4A574"
 			}
 		},
 		{

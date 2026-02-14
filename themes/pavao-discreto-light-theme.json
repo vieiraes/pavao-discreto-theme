@@ -53,7 +53,27 @@
         "editorHoverWidget.border": "#D0DBE2",
         "editorSuggestWidget.background": "#E8EEF2",
         "editorSuggestWidget.border": "#D0DBE2",
-        "editorSuggestWidget.selectedBackground": "#D0DBE2",
+        "editorSuggestWidget.selectedBackground": "#059669aa",
+        "editorSuggestWidget.selectedForeground": "#F5F7F9",
+        "editorSuggestWidget.highlightForeground": "#047857",
+        "editorSuggestWidget.focusHighlightForeground": "#047857",
+        "editorSuggestWidget.selectedIconForeground": "#047857",
+        
+        // Editor highlights e sugestões
+        "editor.wordHighlightBackground": "#05966680",
+        "editor.wordHighlightBorder": "#059669cc",
+        "editor.wordHighlightStrongBackground": "#05966699",
+        "editor.wordHighlightStrongBorder": "#047857",
+        "editor.wordHighlightTextBackground": "#05966666",
+        "editor.wordHighlightTextBorder": "#059669aa",
+        "editorInlayHint.background": "#05966633",
+        "editorInlayHint.foreground": "#2D3845",
+        "editorInlayHint.typeForeground": "#2D3845",
+        "editorInlayHint.typeBackground": "#05966633",
+        "editorInlayHint.parameterForeground": "#2D3845",
+        "editorInlayHint.parameterBackground": "#05966633",
+        "editorGhostText.foreground": "#059669aa",
+        "editorGhostText.background": "#05966633",
         
         // Scrollbar
         "scrollbarSlider.background": "#C8D5DE80",
@@ -308,6 +328,49 @@
 			"settings": {
 				"foreground": "#A07548",
 				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "variable.other.property.tsx",
+			"settings": {
+				"foreground": "#A07548",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "variable.other.property.jsx",
+			"settings": {
+				"foreground": "#A07548",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"meta.block.tsx",
+				"meta.block.jsx",
+				"meta.block.ts",
+				"meta.block.js"
+			],
+			"settings": {
+				"foreground": "#9A6B3A"
+			}
+		},
+		{
+			"scope": [
+				"meta.function.tsx",
+				"meta.function.jsx"
+			],
+			"settings": {
+				"foreground": "#3A6A93"
+			}
+		},
+		{
+			"scope": [
+				"source.tsx",
+				"source.jsx"
+			],
+			"settings": {
+				"foreground": "#9A6B3A"
 			}
 		},
 		{
@@ -608,7 +671,7 @@
 				"meta.jsx.children"
 			],
 			"settings": {
-				"foreground": "#2D3845"
+				"foreground": "#35825A"
 			}
 		},
 		{
@@ -865,7 +928,7 @@
 				"meta.argument.shell"
 			],
 			"settings": {
-				"foreground": "#5D6978",
+				"foreground": "#9A6B3A",
 				"fontStyle": ""
 			}
 		},
@@ -883,7 +946,7 @@
 				"meta.expression.assignment.shell"
 			],
 			"settings": {
-				"foreground": "#5D6978",
+				"foreground": "#35825A",
 				"fontStyle": ""
 			}
 		},
@@ -892,7 +955,7 @@
 				"source.shell"
 			],
 			"settings": {
-				"foreground": "#2D3845"
+				"foreground": "#9A6B3A"
 			}
 		},
 		//JAVA
