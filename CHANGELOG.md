@@ -1,6 +1,25 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.12] - 2026-02-16
+### Added
+- Complete .env (dotenv) files syntax highlighting support
+  - Variable keys styled in bold purple/lilac
+  - Values in green tones (quoted strings) and orange (unquoted)
+  - Comments in italic gray
+  - Variable references with italic blue
+  - Separators and punctuation in bold cyan
+- Enhanced Markdown syntax highlighting in Light theme:
+  - Headings, bold, italic, and lists now fully styled
+  - Blockquotes with italic gray styling  
+  - Horizontal separators in bold cyan
+  - Table support
+  - Complete parity with Dark theme
+
+### Changed
+- Harmonized Markdown color scheme across both themes
+- Improved consistency in markup elements styling
+
 ## [0.7.10] - 2026-02-16
 ### Achievement Unlocked: WCAG AA Compliance! 🎯
 - ✅ **Dark Theme is now 100% WCAG 2.1 Level AA Compliant**

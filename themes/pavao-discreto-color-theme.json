@@ -277,6 +277,29 @@
 			}
 		},
 		{
+			"scope": [
+				"markup.quote.markdown",
+				"punctuation.definition.quote.begin.markdown"
+			],
+			"settings": {
+				"foreground": "#7f848e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#5FB3B3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "markup.table",
+			"settings": {
+				"foreground": "#C5CAD3"
+			}
+		},
+		{
 			"scope": "punctuation.definition.block.sequence.item.yaml",
 			"settings": {
 				"foreground": "#5FB3B3",
@@ -2568,6 +2591,79 @@
 			"scope": "string.quoted.backtick.dbml",
 			"settings": {
 				"foreground": "#5FCC88D9"
+			}
+		},
+		// DOTENV Files
+		{
+			"scope": [
+				"variable.key.dotenv",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"property.value.dotenv",
+				"string.unquoted.ini"
+			],
+			"settings": {
+				"foreground": "#A8D078"
+			}
+		},
+		{
+			"scope": "source.dotenv",
+			"settings": {
+				"foreground": "#C5CAD3"
+			}
+		},
+		{
+			"scope": "punctuation.separator.key-value.ini",
+			"settings": {
+				"foreground": "#5FB3B3",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.ini",
+				"string.quoted.single.ini",
+				"string.quoted.double.dotenv",
+				"string.quoted.single.dotenv"
+			],
+			"settings": {
+				"foreground": "#A8D078"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.number-sign.ini",
+				"comment.line.number-sign.dotenv"
+			],
+			"settings": {
+				"foreground": "#7f848e86",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.env",
+				"variable.other.dotenv"
+			],
+			"settings": {
+				"foreground": "#61AFEF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.variable.env",
+				"punctuation.definition.variable.dotenv"
+			],
+			"settings": {
+				"foreground": "#5FB3B3"
 			}
 		},
 		{
