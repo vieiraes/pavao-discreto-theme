@@ -1081,7 +1081,7 @@
 		{
 			"scope": "keyword.operator.logical",
 			"settings": {
-				"foreground": "#e71405de",
+				"foreground": "#E06C75",
 				"fontStyle": ""
 			}
 		},
@@ -1861,7 +1861,7 @@
 				"punctuation.definition.comment.shell"
 			],
 			"settings": {
-				"foreground": "#5C6370",
+				"foreground": "#7f848e",
 				"fontStyle": "italic"
 			}
 		},
@@ -2356,7 +2356,7 @@
 		{ //support.function.magic.python
 			"scope": "support.function.magic.python",
 			"settings": {
-				"foreground": "#9a353d",
+				"foreground": "#E06C75",
 				"fontStyle": "bold"
 			}
 		},
