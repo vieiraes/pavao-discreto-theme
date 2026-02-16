@@ -1742,6 +1742,34 @@
 				"fontStyle": ""
 			}
 		},
+		// DBML
+		{
+			"scope": "entity.name.dbml",
+			"settings": {
+				"foreground": "#8E6845",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.definition.bracket.dbml",
+			"settings": {
+				"foreground": "#3D8B8B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "punctuation.separator.dbml",
+			"settings": {
+				"foreground": "#3D8B8B",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "string.quoted.backtick.dbml",
+			"settings": {
+				"foreground": "#35825A"
+			}
+		},
 		{
 			"scope": [
 				"comment"

@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.9] - 2026-02-16
+### Added
+- DBML (Database Markup Language) syntax highlighting support
+- Harmonized color scheme for DBML files:
+  - Entity names with bold orange tone for table definitions
+  - Punctuation (brackets and separators) with bold cyan for structure clarity
+  - String values with green for data types and defaults
+- Complete theme coverage for both Dark and Light variants
+
 ## [0.7.8] - 2026-02-14
 ### Major Theme Updates
 Comprehensive improvements to both Dark and Light themes focusing on visual consistency and React development support.

@@ -71,6 +71,7 @@ To enable it:
 - JSON ✨ 100% ✨
 - ENV ✨ 100% ✨
 - Prisma ORM ✨ 100% ✨
+- **DBML (Database Markup Language)** ✨ **100%** ✨
 - Markdown ✨ 100% ✨
 - HTML/CSS ✨ 80% ✨
 - **React/JSX/TSX** ✨ **100%** ✨
