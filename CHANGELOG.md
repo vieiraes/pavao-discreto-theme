@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.12] - 2026-02-18
+### Changed
+- Updated word highlight colors to soft dimmed red tones for better visual comfort
+  - Dark Theme: `#d48787` (soft gray-red)
+  - Light Theme: `#d77878` (soft rose-red)
+- Removed borders from word highlights for cleaner, less distracting appearance
+- Improved `editor.wordHighlight*` properties for smoother reading experience
+
 ## [0.7.10] - 2026-02-16
 ### Achievement Unlocked: WCAG AA Compliance! 🎯
 - ✅ **Dark Theme is now 100% WCAG 2.1 Level AA Compliant**
