@@ -1,6 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<<<<<<< HEAD
 ## [0.7.12] - 2026-02-16
 ### Added
 - Complete .env (dotenv) files syntax highlighting support
@@ -19,6 +20,15 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Harmonized Markdown color scheme across both themes
 - Improved consistency in markup elements styling
+=======
+## [0.7.12] - 2026-02-18
+### Changed
+- Updated word highlight colors to soft dimmed red tones for better visual comfort
+  - Dark Theme: `#d48787` (soft gray-red)
+  - Light Theme: `#d77878` (soft rose-red)
+- Removed borders from word highlights for cleaner, less distracting appearance
+- Improved `editor.wordHighlight*` properties for smoother reading experience
+>>>>>>> aaac9dbbfc31f5d64aad6e70355161eb0c166353
 
 ## [0.7.10] - 2026-02-16
 ### Achievement Unlocked: WCAG AA Compliance! 🎯
