@@ -1997,68 +1997,68 @@
 		{
 			"scope": "variable.other.go",
 			"settings": {
-				"foreground": "#9A6B3A"
+				"foreground": "#926537"
 			}
 		},
 		{
 			"scope": "variable.other.assignment.go",
 			"settings": {
-				"foreground": "#9A6B3A"
+				"foreground": "#926537"
 			}
 		},
 		{
 			"scope": "variable.other.property.go",
 			"settings": {
-				"foreground": "#A07548",
+				"foreground": "#916A41",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "constant.language.go",
 			"settings": {
-				"foreground": "#B57542",
+				"foreground": "#9B6438",
 				"fontStyle": "bold italic"
 			}
 		},
 		{
 			"scope": "constant.numeric.go",
 			"settings": {
-				"foreground": "#B57542",
+				"foreground": "#9B6438",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "keyword.operator.assignment.go",
 			"settings": {
-				"foreground": "#3D8B8B",
+				"foreground": "#367B7B",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "keyword.operator.comparison.go",
 			"settings": {
-				"foreground": "#3D8B8B",
+				"foreground": "#367B7B",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "keyword.operator.arithmetic.go",
 			"settings": {
-				"foreground": "#3D8B8B",
+				"foreground": "#367B7B",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "keyword.operator.logical.go",
 			"settings": {
-				"foreground": "#3D8B8B",
+				"foreground": "#367B7B",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "keyword.operator.address.go",
 			"settings": {
-				"foreground": "#3D8B8B",
+				"foreground": "#367B7B",
 				"fontStyle": "bold"
 			}
 		},
@@ -2086,21 +2086,21 @@
 		{
 			"scope": "string.quoted.double.go",
 			"settings": {
-				"foreground": "#2B9B6A",
+				"foreground": "#238057",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "punctuation.definition.string.begin.go",
 			"settings": {
-				"foreground": "#2B9B6A",
+				"foreground": "#238057",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "punctuation.definition.string.end.go",
 			"settings": {
-				"foreground": "#2B9B6A",
+				"foreground": "#238057",
 				"fontStyle": "bold"
 			}
 		},
