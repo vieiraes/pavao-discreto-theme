@@ -4,9 +4,20 @@
 
 This is a **VS Code color theme extension** with two variants:
 - **Dark** (`themes/pavao-discreto-color-theme.json`) — WCAG 2.1 Level AA certified (100% compliant, contrast ≥ 4.5:1)
-- **Light** (`themes/pavao-discreto-light-theme.json`) — aesthetics-focused, partial WCAG compliance (~35%)
+- **Light** (`themes/pavao-discreto-light-theme.json`) — Macintosh-inspired aesthetic; **WCAG compliance is NOT required** for this variant
 
 There are no build steps. The theme files are consumed directly by VS Code.
+
+## Git Workflow
+
+**Never commit or push automatically.** Always wait for an explicit instruction from the user before running `git commit` or `git push`.
+
+Before every commit:
+1. Bump the version in `package.json` (follow semver)
+2. Update `CHANGELOG.md` with the changes
+3. Run `git commit` only after the user says to
+
+Never add `Co-authored-by: Copilot` or any AI assistant co-author trailer to commit messages.
 
 ## Packaging
 
@@ -23,7 +34,9 @@ The `.vscodeignore` excludes `utils/`, `dist/`, `.vscode/`, and all `.vsix` file
 
 ## Accessibility — WCAG Contrast Rules
 
-**Critical requirement for Dark theme**: every `"foreground"` color in `tokenColors` must achieve ≥ 4.5:1 contrast ratio against the editor background `#0F1520`.
+**Dark theme only**: every `"foreground"` color in `tokenColors` must achieve ≥ 4.5:1 contrast ratio against the editor background `#0F1520`. Run the checker after every color change to the dark theme.
+
+**Light theme**: WCAG contrast is **not enforced**. The light theme follows a Macintosh-inspired aesthetic — preserve the warm, muted Mac color palette even if some ratios fall below 4.5:1.
 
 Run the contrast checker from the project root:
 
