@@ -1,7 +1,28 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-<<<<<<< HEAD
+## [0.7.20] - 2026-05-21
+### Added — Massive UI color coverage expansion (both themes)
+- **Git decorations**: `addedResourceForeground`, `modifiedResourceForeground`, `deletedResourceForeground`, `untrackedResourceForeground`, `ignoredResourceForeground`, `conflictingResourceForeground`, `stageModifiedResourceForeground`, `stageDeletedResourceForeground`
+- **Diff editor**: inserted/removed/unmodified line backgrounds, gutter indicators, overview ruler, diagonal fill, border
+- **Bracket pair colorization**: 6 foreground colors + matching pair guides using palette hues
+- **Overview ruler**: 13 keys (add/delete/modified/error/warning/info/merge/selection/bracket/word highlight/find)
+- **Chat & Inline Chat** (Copilot NES): request/response backgrounds, edit highlight, applied change colors
+- **Sticky scroll**: themed for editor, sidebar, panel, terminal, and peek view
+- **Agent session**: distinct background for AI session panels
+- **Debug icons**: breakpoint, conditional, log point, function, stack frame icons
+- **Terminal extras**: command decoration (success/error/default), overview ruler, tab active/inactive border
+- **Symbol icons**: 34 types (array, boolean, class, constructor, enum, event, field, file, folder, function, interface, key, method, module, namespace, null, number, object, operator, package, property, reference, snippet, string, struct, text, typeParameter, unit, value, variable, color, constant, enumMember, ruler)
+- **Testing icons**: passed, failed, skipped, errored, queued, unset
+- **Activity bar**: active/inactive focus border, active background
+- **Multi-cursor & folding**: secondary cursor border, fold background
+- **Markdown alerts**: Note, Tip, Important, Warning, Caution — border and title colors
+- **Notifications & banner**: background, foreground, border, button colors
+- **SCM graph**: history item colors, remote/base variants, incoming/outgoing arrows
+- **Charts & gauge**: chart line colors (1–6), gauge background
+- **Keybinding labels**: background, foreground, border, modifier foreground
+- **Status bar**: error/warning item background and foreground
+
 ## [0.7.12] - 2026-02-16
 ### Added
 - Complete .env (dotenv) files syntax highlighting support
@@ -12,7 +33,7 @@ All notable changes to this project will be documented in this file.
   - Separators and punctuation in bold cyan
 - Enhanced Markdown syntax highlighting in Light theme:
   - Headings, bold, italic, and lists now fully styled
-  - Blockquotes with italic gray styling  
+  - Blockquotes with italic gray styling
   - Horizontal separators in bold cyan
   - Table support
   - Complete parity with Dark theme
@@ -20,15 +41,11 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Harmonized Markdown color scheme across both themes
 - Improved consistency in markup elements styling
-=======
-## [0.7.12] - 2026-02-18
-### Changed
 - Updated word highlight colors to soft dimmed red tones for better visual comfort
   - Dark Theme: `#d48787` (soft gray-red)
   - Light Theme: `#d77878` (soft rose-red)
 - Removed borders from word highlights for cleaner, less distracting appearance
 - Improved `editor.wordHighlight*` properties for smoother reading experience
->>>>>>> aaac9dbbfc31f5d64aad6e70355161eb0c166353
 
 ## [0.7.10] - 2026-02-16
 ### Achievement Unlocked: WCAG AA Compliance! 🎯
