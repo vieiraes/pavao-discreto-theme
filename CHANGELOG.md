@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [0.7.20] - 2026-05-21
+## [0.7.21] - 2026-05-21
 ### Added — Massive UI color coverage expansion (both themes)
 - **Git decorations**: `addedResourceForeground`, `modifiedResourceForeground`, `deletedResourceForeground`, `untrackedResourceForeground`, `ignoredResourceForeground`, `conflictingResourceForeground`, `stageModifiedResourceForeground`, `stageDeletedResourceForeground`
 - **Diff editor**: inserted/removed/unmodified line backgrounds, gutter indicators, overview ruler, diagonal fill, border
