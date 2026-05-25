@@ -1,6 +1,38 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.23] - 2026-05-25
+### Changed — Token contrast fix, Command Center identity colors, dark terminal in light theme
+
+#### Light theme — token color contrast (against new warm bg `#F3F1EC`)
+- `#3D8B8B` → `#1F6B6B`: teal operators/brackets/symbols — 3.53:1 → 5.51:1
+- `#A07030` → `#8C5C14`: orange numbers/git modified — 3.83:1 → 5.09:1
+- `#A07548` → `#845830`: warm amber constants/CSS — 3.62:1 → 5.44:1
+- `#9A6B3A` → `#7A5220`: meta-block amber — 4.10:1 → 6.09:1
+- `#8E6845` → `#725235`: brown variables/properties — 4.41:1 → 6.26:1
+- `#35825A` → `#246A48`: secondary green strings/HTML — 4.14:1 → 5.76:1
+- `#6B7480` → `#545E6A`: secondary UI text (tabs, breadcrumbs, titlebar) — 4.19:1 → 5.84:1
+- `editorLineNumber.foreground`: `#9DA5B460` (alpha, ~1.5:1) → `#9097A2` solid — 2.61:1
+- `editorLineNumber.activeForeground`: `#6D94A6B0` (alpha, ~2.0:1) → `#4A7088` solid — 4.69:1
+
+#### Both themes — Command Center identity (project name in title bar)
+- Added full `commandCenter.*` block to both themes
+- **Light**: `commandCenter.foreground` `#8B0000` (dark red, 7.5:1) — stands out against warm titlebar
+- **Light**: `commandCenter.activeBackground` `#D0C9C0`, `commandCenter.border` `#C8C3BB`
+- **Dark**: `commandCenter.foreground` `#7DD8FF` (electric blue, 11.1:1) — pops against deep dark titlebar
+- **Dark**: `commandCenter.background` `#141820`, `commandCenter.activeBackground` `#1D2235`
+
+#### Light theme — dark terminal panel for instant visual differentiation
+- `terminal.background`: `#ECE7DE` → `#2A2218` (warm dark charcoal)
+- `terminal.foreground`: `#2D3845` → `#D0C8B8` (warm light beige)
+- `terminalCursor.foreground`: `#3A6A8A` → `#C8A038` (amber gold cursor)
+- Added `terminalCursor.background`: `#1A1510`
+- Full ANSI palette replaced with vivid dark-optimized set:
+  - `ansiRed` `#E86880`, `ansiGreen` `#42B872`, `ansiYellow` `#C89028`, `ansiBlue` `#4A98D8`
+  - `ansiMagenta` `#B880D0`, `ansiCyan` `#36A8A0`, `ansiWhite` `#A8B0BC`
+  - Bright variants: Red `#F07888`, Green `#60D090`, Yellow `#E0B040`, Blue `#68C0F8`
+  - Bright variants: Magenta `#C898E8`, Cyan `#50D8D0`, White `#D8E0E8`
+
 ## [0.7.22] - 2026-05-25
 ### Added — Massive UI color coverage expansion (both themes)
 - **Git decorations**: `addedResourceForeground`, `modifiedResourceForeground`, `deletedResourceForeground`, `untrackedResourceForeground`, `ignoredResourceForeground`, `conflictingResourceForeground`, `stageModifiedResourceForeground`, `stageDeletedResourceForeground`
