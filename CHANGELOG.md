@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [0.7.21] - 2026-05-21
+## [0.7.22] - 2026-05-25
 ### Added — Massive UI color coverage expansion (both themes)
 - **Git decorations**: `addedResourceForeground`, `modifiedResourceForeground`, `deletedResourceForeground`, `untrackedResourceForeground`, `ignoredResourceForeground`, `conflictingResourceForeground`, `stageModifiedResourceForeground`, `stageDeletedResourceForeground`
 - **Diff editor**: inserted/removed/unmodified line backgrounds, gutter indicators, overview ruler, diagonal fill, border
@@ -19,9 +19,17 @@ All notable changes to this project will be documented in this file.
 - **Markdown alerts**: Note, Tip, Important, Warning, Caution — border and title colors
 - **Notifications & banner**: background, foreground, border, button colors
 - **SCM graph**: history item colors, remote/base variants, incoming/outgoing arrows
-- **Charts & gauge**: chart line colors (1–6), gauge background
+- **Charts**: chart line colors (1–6)
 - **Keybinding labels**: background, foreground, border, modifier foreground
 - **Status bar**: error/warning item background and foreground
+
+### Changed — Light theme refinement for lower visual fatigue
+- **Warm off-white work surfaces**: `editor.background` `#F5F7F9` → `#F3F1EC`; `sideBar.background` `#E8EEF2` → `#ECE8E1`; `panel.background` `#DDE8F4` → `#E9E4DB`; `terminal.background` `#DDE8F4` → `#ECE7DE`
+- **Softer structural contrast**: `editor.selectionBackground` `#C3D0D8` → `#D9D4CA`; `editor.lineHighlightBackground` `#E8EEF2` → `#EFEAE2`; `tab.activeBackground` `#C3D0D880` → `#E4DED4`; `list.activeSelectionBackground` `#D0DBE2` → `#DDD8CF`
+- **Less washed-out secondary text**: alpha-based labels like `#2D384580` were replaced by solid muted neutrals such as `#6B7480` for inactive tabs, titlebar, breadcrumbs, panel titles, and activity bar states
+- **AI workflow contrast kept, but harmonized**: chat, inline chat, inline edit, sticky scroll, notifications, and keybinding surfaces were shifted from cool blue-grays toward warmer neutrals so they stay readable without looking harsher than the editor canvas
+- **Terminal readability preserved**: higher-contrast ANSI updates were kept, while terminal chrome moved to the warmer surface palette to better match the rest of the light theme
+- **Word/string noise reduced**: word highlights moved from rose-red overlays to muted amber, and common string tokens no longer render in bold to reduce visual vibration during long sessions
 
 ## [0.7.12] - 2026-02-16
 ### Added
@@ -84,7 +92,7 @@ Comprehensive improvements to both Dark and Light themes focusing on visual cons
 - Removed gray tones from code elements (gray reserved exclusively for comments)
 - Enhanced Shell Script and Bash syntax highlighting for DevOps workflows
 - Improved editor highlights with strong green emphasis
-- Complete Light theme enhancement with Macintosh-style aesthetic
+- Complete Light theme enhancement with a warm low-glare aesthetic
 - Comprehensive React/JSX/TSX optimization with dedicated color schemes
 
 #### Fixed

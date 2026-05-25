@@ -4,7 +4,7 @@
 
 This is a **VS Code color theme extension** with two variants:
 - **Dark** (`themes/pavao-discreto-color-theme.json`) — WCAG 2.1 Level AA certified (100% compliant, contrast ≥ 4.5:1)
-- **Light** (`themes/pavao-discreto-light-theme.json`) — Macintosh-inspired aesthetic; **WCAG compliance is NOT required** for this variant
+- **Light** (`themes/pavao-discreto-light-theme.json`) — warm low-glare aesthetic with muted surfaces and comfort-first contrast; **WCAG compliance is NOT required** for this variant
 
 There are no build steps. The theme files are consumed directly by VS Code.
 
@@ -36,7 +36,7 @@ The `.vscodeignore` excludes `utils/`, `dist/`, `.vscode/`, and all `.vsix` file
 
 **Dark theme only**: every `"foreground"` color in `tokenColors` must achieve ≥ 4.5:1 contrast ratio against the editor background `#0F1520`. Run the checker after every color change to the dark theme.
 
-**Light theme**: WCAG contrast is **not enforced**. The light theme follows a Macintosh-inspired aesthetic — preserve the warm, muted Mac color palette even if some ratios fall below 4.5:1.
+**Light theme**: WCAG contrast is **not enforced**. Preserve the warm, muted, low-glare palette and the visual-comfort-first philosophy of the light theme even if some ratios fall below 4.5:1. Avoid bright whites, icy blue surfaces, or overly saturated accents.
 
 Run the contrast checker from the project root:
 

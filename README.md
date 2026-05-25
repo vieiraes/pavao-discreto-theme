@@ -4,22 +4,22 @@
 
 ## Preview
 
-### Dark Theme - Dimmed Aesthetic
+### Dark Theme - Deep Dimmed Contrast
 ![Dark Theme Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_dark.jpg)
 
-### Light Theme - Macintosh Style
+### Light Theme - Warm Low-Glare Contrast
 ![Light Theme Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_light.jpg)
 
 ---
 
-Discover the harmonious balance of modern aesthetics and visual comfort with Pavão Discreto. Now featuring both Dark and Light themes, this meticulously crafted theme enhances contrast while minimizing eye strain, making it an ideal choice for prolonged coding sessions. By providing flexibility in theme selection and utilizing finely-tuned color schemes, this theme ensures a smooth and pleasurable experience regardless of your lighting preference.
+Discover the balance of visual comfort, controlled contrast, and muted color harmony with Pavão Discreto. Both Dark and Light variants follow the same comfort-first philosophy: low-glare surfaces, readable syntax contrast, and color relationships tuned for long coding sessions. The dark theme goes deeper and dimmer, while the light theme stays warm, soft, and restrained instead of bright or glossy.
 
 **Download**: [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto)
 
 ## Key Features
 - **🏆 WCAG AA Certified**: Dark theme is 100% compliant with accessibility standards - safe for all users
 - **👁️ Eye Comfort First**: Scientifically optimized contrast ratios reduce eye strain during extended coding
-- **🎨 Two Professional Themes**: Dark (dimmed aesthetic) and Light (Macintosh-style) for any environment
+- **🎨 Two Professional Themes**: Dark (deep dimmed contrast) and Light (warm low-glare contrast) for any environment
 - **🌐 15+ Languages Supported**: 1000+ token color rules including React, TypeScript, Python, Shell, DBML, and more
 - **🔧 Developer-Focused**: Git integration, bracket matching, indent guides, and intelligent syntax highlighting
 - **📁 Smart File Recognition**: Each file type has distinct color combinations for instant visual identification
@@ -91,14 +91,17 @@ The **Pavão Discreto Dark Theme** is officially certified compliant with intern
 - Complies with Section 508 and accessibility requirements for professional/educational use
 - Scientifically validated to reduce eye fatigue during extended sessions
 
-**Light Theme:** Currently 34.8% compliant - optimized for aesthetics while we work toward full accessibility.
+**Light Theme:** Currently 34.8% compliant - optimized for visual comfort, warm low-glare surfaces, and muted contrast while we work toward fuller accessibility.
 
 ## About This Theme
 
 Pavão Discreto was created by a developer for developers who spend hours coding daily. Born from personal need to reduce eye strain, this theme prioritizes **comfort without sacrificing aesthetics**.
 
+The project now follows one unified rule across both variants: visual comfort first. The dark theme delivers a deeper dimmed environment, and the light theme applies the same philosophy through warm off-whites, softer separators, and low-glare surfaces.
+
 **Design Philosophy:**
-- No pure white or black backgrounds - carefully balanced tones reduce fatigue
+- No pure white or black backgrounds - both variants use controlled tones to reduce fatigue
+- Dark and Light themes share the same comfort-first logic: restrained saturation, muted surfaces, and readable contrast
 - 1200+ meticulously crafted color rules across 15+ languages
 - Each file type gets distinct visual identity for instant recognition
 - Continuous improvements based on real-world usage and community feedback
