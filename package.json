@@ -2,7 +2,7 @@
     "name": "pavao-discreto",
     "displayName": "pavao-discreto",
     "description": "Visual-comfort-first VS Code theme with two balanced variants: a deep dimmed dark theme and a warm low-glare light theme. Built for long coding sessions with controlled contrast, muted surfaces, and tuned syntax highlighting for JavaScript, TypeScript, React/JSX/TSX, Python, Shell Script/Bash, Prisma, DBML, and more.",
-    "version": "0.7.23",
+    "version": "0.7.24",
     "publisher": "BrunoVieira",
     "repository": {
         "type": "git",

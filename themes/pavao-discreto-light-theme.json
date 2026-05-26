@@ -254,26 +254,26 @@
         "editorOverviewRuler.deletedForeground": "#C5455D99",
 
         // ─── FASE 2: Chat ──────────────────────────────────────────────────────
-		"chat.requestBorder": "#C9C2B7",
-		"chat.requestBackground": "#E9E4DC",
-        "chat.slashCommandBackground": "#8D5A9F45",
-        "chat.slashCommandForeground": "#6B3E80",
-		"chat.avatarBackground": "#D5CEC4",
-        "chat.avatarForeground": "#2E6548",
+		"chat.requestBorder": "#B987A3",
+		"chat.requestBackground": "#E7D3E0",
+        "chat.slashCommandBackground": "#8D5A9F60",
+        "chat.slashCommandForeground": "#5D2E6F",
+		"chat.avatarBackground": "#DEC8D8",
+        "chat.avatarForeground": "#6E2F55",
         "chat.editedFileForeground": "#8A5E20",
 		"chat.linesAddedForeground": "#2E6548CC",
 		"chat.linesRemovedForeground": "#A83350CC",
-		"chat.requestBubbleBackground": "#F0EAE2CC",
-		"chat.requestBubbleHoverBackground": "#E6DED4E6",
+		"chat.requestBubbleBackground": "#EAD7E3CC",
+		"chat.requestBubbleHoverBackground": "#DFC7D6E6",
 
         // ─── FASE 2: Inline Chat ──────────────────────────────────────────────
-		"inlineChat.background": "#E4DED6",
-		"inlineChat.border": "#C7BEB2",
+		"inlineChat.background": "#E1CDDA",
+		"inlineChat.border": "#B987A3",
         "inlineChat.shadow": "#00000030",
-		"inlineChatInput.border": "#C7BEB2",
-        "inlineChatInput.focusBorder": "#2A7070",
+		"inlineChatInput.border": "#B987A3",
+        "inlineChatInput.focusBorder": "#7A406B",
 		"inlineChatInput.placeholderForeground": "#545E6A",
-		"inlineChatInput.background": "#F2ECE5",
+		"inlineChatInput.background": "#F0DFEA",
         "inlineChatDiff.inserted": "#3E866050",
         "inlineChatDiff.removed": "#C5455D50",
 
@@ -309,8 +309,8 @@
 		"peekViewEditorStickyScroll.background": "#F1ECE5",
 
         // ─── FASE 2: Agent Session ────────────────────────────────────────────
-        "agentSessionReadIndicator.foreground": "#2A7070",
-        "agentSessionSelectedBadge.border": "#2A7070",
+		"agentSessionReadIndicator.foreground": "#7A406B",
+		"agentSessionSelectedBadge.border": "#7A406B",
 
         // ─── FASE 3: Debug Icons ──────────────────────────────────────────────
         "debugIcon.breakpointForeground": "#C5455D",

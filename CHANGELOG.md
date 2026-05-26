@@ -1,6 +1,26 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.24] - 2026-05-26
+### Changed — AI chat and session contrast tuning in both themes
+
+#### Light theme — stronger wine/lilac identity for user conversation surfaces
+- `chat.requestBackground`: `#EEE1EA` → `#E7D3E0`
+- `chat.requestBubbleBackground`: `#F3E3EFCC` → `#EAD7E3CC`
+- `chat.requestBubbleHoverBackground`: `#EAD7E3E6` → `#DFC7D6E6`
+- `inlineChat.background`: `#E8D7E4` → `#E1CDDA`
+- `inlineChatInput.background`: `#F5E8F1` → `#F0DFEA`
+- Kept wine/lilac borders and accents so the user's own messages are easier to identify without relying on hover
+
+#### Dark theme — AI surfaces aligned to the Command Center electric blue accent
+- Replaced temporary lilac/green chat/session accents with the dark theme's quick-access blue family: `#7DD8FF`, `#A0E8FF`, `#4A98D8`
+- `chat.requestBackground`: `#141820` → `#1D2235`
+- `chat.requestBubbleHoverBackground`: `#1D2235E6` → `#27314AE6`
+- `inlineChat.background`: `#141820` → `#1D2235`
+- `inlineChatInput.background`: `#0F141C` → `#182131`
+- `agentSessionReadIndicator.foreground` and `agentSessionSelectedBadge.border` now use `#7DD8FF`
+- Result: chat and session panels separate more clearly from the editor background even before hover
+
 ## [0.7.23] - 2026-05-25
 ### Changed — Token contrast fix, Command Center identity colors, dark terminal in light theme
 
