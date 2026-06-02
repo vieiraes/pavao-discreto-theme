@@ -1,6 +1,35 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.7.27] - 2026-06-02
+### Changed — Antigravity Dark readability hardening
+- Improved token readability in `Pavao Discreto Antigravity Dark` after contrast audit against `editor.background` `#0F1520`.
+- Replaced low-contrast token foregrounds:
+  - `keyword.other.debugger.js`: `#000000` → `#FF616E`
+  - `support.function.magic.python`: `#8A2531` → `#E06C75`
+  - `variable.key.dotenv` / `keyword.other.definition.ini`: `#8B4E9C` → `#C678DD`
+- Result: token foreground audit now reports `0` colors below `4.5:1` in the Antigravity Dark variant.
+
+## [0.7.26] - 2026-06-01
+### Added — Pavao Discreto Antigravity Dark
+- Added a new dark variant (`Pavao Discreto Antigravity Dark`) converted from the Antigravity Light palette.
+- Dark UI surfaces now use a dimmed blue-gray system for the editor, side bar, tabs, panels, command center, chat, and session areas.
+- The dark variant keeps the Antigravity identity while matching the rest of the project's low-glare dark aesthetic.
+
+## [0.7.25] - 2026-05-30
+### Added — New Pavao Discreto Antigravity Light Theme
+- Added a brand new light theme variant (`Pavao Discreto Antigravity Light`) inspired by Google's clean, minimalist, and tech-forward design language.
+- Replaced the warm off-white tones with Material/Google design system palette:
+  - Editor background: `#F8F9FA` (Google Gray 50)
+  - Sidebar background: `#EDF2FA` (Google Workspace light blue-gray tint)
+  - Primary accents: `#1a73e8` (Google Blue)
+  - Diff and validation elements: `#137333` (Google Green) / `#d93025` (Google Red)
+- Mapped token syntax colors to Google-inspired highlights:
+  - Keywords, storage, and functions styled in vibrant Google Blue
+  - Strings and attributes in Google Green
+  - Tags and HTML properties in Google Red
+  - Constants and numbers in Amber/Brown
+
 ## [0.7.24] - 2026-05-26
 ### Changed — AI chat and session contrast tuning in both themes
 

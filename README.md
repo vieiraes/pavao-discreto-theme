@@ -12,14 +12,15 @@
 
 ---
 
-Discover the balance of visual comfort, controlled contrast, and muted color harmony with Pavão Discreto. Both Dark and Light variants follow the same comfort-first philosophy: low-glare surfaces, readable syntax contrast, and color relationships tuned for long coding sessions. The dark theme goes deeper and dimmer, while the light theme stays warm, soft, and restrained instead of bright or glossy.
+Discover the balance of visual comfort, controlled contrast, and muted color harmony with Pavão Discreto. The theme is available in four variants: a deep dimmed dark theme, a warm low-glare light theme, a dimmed dark version of the Antigravity palette, and a clean minimalist light theme inspired by Google's design language ("Antigravity Light"). All follow a comfort-first philosophy with readable contrast and color relationships tuned for long coding sessions.
 
 **Download**: [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto)
 
 ## Key Features
 - **🏆 WCAG AA Certified**: Dark theme is 100% compliant with accessibility standards - safe for all users
 - **👁️ Eye Comfort First**: Scientifically optimized contrast ratios reduce eye strain during extended coding
-- **🎨 Two Professional Themes**: Dark (deep dimmed contrast) and Light (warm low-glare contrast) for any environment
+- **🎨 Four Professional Themes**: Dark (deep dimmed contrast), Light (warm low-glare contrast), Antigravity Dark (dimmed Google-inspired dark design), and Antigravity Light (Google-inspired clean design)
+- **🔎 Antigravity Dark Contrast Pass**: Critical low-contrast token colors were corrected for improved readability in Python, dotenv/INI, and debugger scopes
 - **🌐 15+ Languages Supported**: 1000+ token color rules including React, TypeScript, Python, Shell, DBML, and more
 - **🔧 Developer-Focused**: Git integration, bracket matching, indent guides, and intelligent syntax highlighting
 - **📁 Smart File Recognition**: Each file type has distinct color combinations for instant visual identification
@@ -27,7 +28,7 @@ Discover the balance of visual comfort, controlled contrast, and muted color har
 ## Theme Selection
 To switch between themes:
 1. Press `Ctrl+K Ctrl+T` (Windows/Linux) or `Cmd+K Cmd+T` (Mac)
-2. Select either "Pavao Discreto Dark" or "Pavao Discreto Light"
+2. Select "Pavao Discreto Dark", "Pavao Discreto Light", "Pavao Discreto Antigravity Dark", or "Pavao Discreto Antigravity Light"
 3. Or use the Command Palette (`Ctrl+Shift+P`) and search for "Color Theme"
 
 ## Installation

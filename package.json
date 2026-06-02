@@ -1,8 +1,8 @@
 {
     "name": "pavao-discreto",
     "displayName": "pavao-discreto",
-    "description": "Visual-comfort-first VS Code theme with two balanced variants: a deep dimmed dark theme and a warm low-glare light theme. Built for long coding sessions with controlled contrast, muted surfaces, and tuned syntax highlighting for JavaScript, TypeScript, React/JSX/TSX, Python, Shell Script/Bash, Prisma, DBML, and more.",
-    "version": "0.7.24",
+    "description": "Visual-comfort-first VS Code theme with four balanced variants: a deep dimmed dark theme, a warm low-glare light theme, a dimmed Antigravity Dark theme, and a clean Antigravity Light theme. Built for long coding sessions with controlled contrast, muted surfaces, and tuned syntax highlighting for JavaScript, TypeScript, React/JSX/TSX, Python, Shell Script/Bash, Prisma, DBML, and more.",
+    "version": "0.7.27",
     "publisher": "BrunoVieira",
     "repository": {
         "type": "git",
@@ -68,6 +68,16 @@
                 "label": "Pavao Discreto Light",
                 "uiTheme": "vs",
                 "path": "./themes/pavao-discreto-light-theme.json"
+            },
+            {
+                "label": "Pavao Discreto Antigravity Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pavao-discreto-antigravity-dark-theme.json"
+            },
+            {
+                "label": "Pavao Discreto Antigravity Light",
+                "uiTheme": "vs",
+                "path": "./themes/pavao-discreto-antigravity-light-theme.json"
             }
         ]
     },
