@@ -1,6 +1,47 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.8.0] - 2026-09-23
+### Added
+- New logo: a minimal peacock-feather eyespot in the theme palette (`storage/logo.svg`, `storage/logo.png`). The original logo by Ruan Rodrigues moved to `storage/legacy/`.
+- `scripts/check-contrast.mjs` (run with `npm run check`): a dependency-free WCAG audit for all four variants. It reads JSONC, blends alpha colors, fails on dark syntax colors below 4.5:1 and warns on weak UI text pairs.
+- 65 workbench keys that Light, Antigravity Dark and Antigravity Light did not define (so VS Code used its blue defaults): `foreground`, `focusBorder`, `editorCursor.*`, `editor.findMatch*`, `selection.background`, `editorError/Warning.foreground`, `quickInput.*`, `peekView*`, `gauge.*`, `widget.shadow` and more. Each variant now uses its own palette for these.
+
+### Fixed — Dark
+- Comments `#7f848e86` (2.23:1) → `#7F848E` (4.87:1). The dark theme now fully meets the ≥ 4.5:1 rule the README already claimed.
+- `editorLineNumber.foreground` `#7959bf30` (1.19:1, almost invisible) → `#5A6275` (2.99:1); active line number `#74b9ff66` (2.44:1) → `#74B9FF`.
+- `tab.inactiveForeground` `#787c8570` (1.80:1) and `activityBar.inactiveForeground` `#9DA5B480` (2.77:1) → `#747B88` (4.59:1).
+- `statusBar.foreground` `#9DA5B499` (3.48:1) → `#8A919E` (6.17:1); `descriptionForeground` `#9DA5B490` → `#8C94A2` (6.26:1).
+- `statusBar.debuggingForeground` `#9DA5B4` on `#cc6633` (1.54:1) → `#0A0C12` (5.13:1).
+- `terminal.foreground` `#9DA5B499` (3.45:1) → `#C5CAD3` (11.36:1).
+- The terminal defined no normal `ansiRed/Green/Yellow/Magenta/Cyan/White` or `ansiBrightYellow`, so VS Code defaults were used. Added `#E06C75`, `#8BC34A`, `#D19A66`, `#C678DD`, `#5FB3B3`, `#ABB2BF`, `#E5C07B`.
+- Added `badge.background` `#2A3544`, `button.foreground` `#C5CAD3`, `button.hoverBackground` `#1D2235`.
+
+### Fixed — Light
+- Punctuation tokens below 3:1: `#6B9B03` → `#4E7A02` (2.95 → 4.53:1), `#4D9C9C` → `#397F7F` (2.84 → 4.12:1), `#B58545` → `#8F6A30` (2.90 → 4.35:1).
+- Buttons, badges and activity badges `#6D94A6` (3.04:1 with the label) → `#4B7285` (> 4.5:1).
+- Suggest widget: selected row `#047857CC` → `#047857` (5.11:1). The selected icon `#035F41` was nearly invisible on the green row → `#F5F7F9`.
+- `statusBar.debuggingBackground` `#B57542` (3.50:1) → `#9A5F32` (4.82:1); `statusBarItem.errorBackground` `#C5455D` (4.46:1) → `#B83E55`.
+- `editorLineNumber.foreground` `#9097A2` (2.61:1) → `#7D8591` (3.30:1).
+
+### Fixed — Antigravity Dark
+- `keybindingLabel.bottomBorder` `#C7BEB1` was a light-theme color left over from the conversion → `#3D4A5E`.
+- `statusBar.debugging*` light-theme values (`#F5F7F9` on `#B57542`, 3.50:1) → `#0F1520` on `#D19A66` (7.42:1).
+
+### Fixed — Antigravity Light
+- Terminal ANSI colors were light-theme blues, reds and greens on the dark `#101827` terminal (`ansiRed` 3.72:1, `ansiBlue` 3.94:1). They now use a matching dark-surface palette (`#F28B82`, `#81C995`, `#FDD663`, `#8AB4F8`, `#C58AF9`, `#78D9EC` and lighter bright variants), all at 7:1 or more.
+- Buttons and badges `#F5F7F9` on `#1a73e8` (4.19:1) → `#FFFFFF` on `#1967d2` (5.37:1); `commandCenter.foreground` → `#1967d2` (4.78:1).
+- Suggest widget selected text `#1a73e8` on `#E8F0FE` (3.93:1) → `#174ea6` (6.85:1).
+- Debug status bar → `#FFFFFF` on `#b06000` (4.65:1); error and warning items use `#FFFFFF`.
+- `editorLineNumber.foreground` `#9097A2` (2.79:1) → `#80868B` (3.49:1).
+
+### Changed — Project
+- `package.json`: 31 keywords → 30 (`vsce` rejects more than 30). Display name is now `Pavão Discreto`, the repository URL uses HTTPS, the gallery banner is `#0F1520`, and `npm run check` / `npm run package` were added.
+- `.vscodeignore`: fixed the merged `dist/.vscode/**` line. `.github`, `scripts`, legacy art, the SVG source and preview screenshots are now excluded from the `.vsix`.
+- `.vscode/launch.json`: removed the `npm: watch` pre-launch task, which did not exist and broke `F5`. Removed `tasks.json`.
+- New screenshots of all four variants in `storage/screenshots/`, taken in VS Code 1.138. They replace `pd_dark.jpg` and `pd_light.jpg`; the latter was a PNG with a `.jpg` name.
+- README rewritten: variants table, measured contrast table, development workflow.
+
 ## [0.7.27] - 2026-06-02
 ### Changed — Antigravity Dark readability hardening
 - Improved token readability in `Pavao Discreto Antigravity Dark` after contrast audit against `editor.background` `#0F1520`.

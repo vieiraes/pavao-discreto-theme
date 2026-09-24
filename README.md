@@ -1,120 +1,113 @@
-![Pavão Discreto Logo](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/logo-pavao-discreto.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/logo.png" width="128" alt="Pavão Discreto logo">
+</p>
 
-# Pavão Discreto: Your Essential Theme for Coding
+<h1 align="center">Pavão Discreto</h1>
 
-## Preview
+<p align="center">
+  A VS Code theme built for long sessions, with controlled contrast, muted surfaces and careful syntax colors.
+</p>
 
-### Dark Theme - Deep Dimmed Contrast
-![Dark Theme Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_dark.jpg)
-
-### Light Theme - Warm Low-Glare Contrast
-![Light Theme Preview](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/pd_light.jpg)
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto"><img src="https://img.shields.io/visual-studio-marketplace/v/BrunoVieira.pavao-discreto?style=flat-square&label=marketplace&color=0F1520" alt="Marketplace version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto"><img src="https://img.shields.io/visual-studio-marketplace/i/BrunoVieira.pavao-discreto?style=flat-square&color=0F1520" alt="Installs"></a>
+  <img src="https://img.shields.io/badge/dark%20themes-WCAG%20AA-5FB3B3?style=flat-square" alt="Dark themes meet WCAG AA">
+  <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-8BC34A?style=flat-square" alt="MIT license"></a>
+</p>
 
 ---
 
-Discover the balance of visual comfort, controlled contrast, and muted color harmony with Pavão Discreto. The theme is available in four variants: a deep dimmed dark theme, a warm low-glare light theme, a dimmed dark version of the Antigravity palette, and a clean minimalist light theme inspired by Google's design language ("Antigravity Light"). All follow a comfort-first philosophy with readable contrast and color relationships tuned for long coding sessions.
+## Variants
 
-**Download**: [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto)
+Four variants that follow one rule: comfort first. None of them uses pure white or pure black for the editor.
 
-## Key Features
-- **🏆 WCAG AA Certified**: Dark theme is 100% compliant with accessibility standards - safe for all users
-- **👁️ Eye Comfort First**: Scientifically optimized contrast ratios reduce eye strain during extended coding
-- **🎨 Four Professional Themes**: Dark (deep dimmed contrast), Light (warm low-glare contrast), Antigravity Dark (dimmed Google-inspired dark design), and Antigravity Light (Google-inspired clean design)
-- **🔎 Antigravity Dark Contrast Pass**: Critical low-contrast token colors were corrected for improved readability in Python, dotenv/INI, and debugger scopes
-- **🌐 15+ Languages Supported**: 1000+ token color rules including React, TypeScript, Python, Shell, DBML, and more
-- **🔧 Developer-Focused**: Git integration, bracket matching, indent guides, and intelligent syntax highlighting
-- **📁 Smart File Recognition**: Each file type has distinct color combinations for instant visual identification
+| Variant | Type | Editor | Accent | Character |
+|---|---|---|---|---|
+| **Pavao Discreto Dark** | dark | `#0F1520` | `#8BC34A` / `#5FB3B3` | The original. Deep blue-gray, green and teal accents. |
+| **Pavao Discreto Light** | light | `#F3F1EC` | `#4B7285` / `#047857` | Warm off-white with low glare and a dark terminal. |
+| **Pavao Discreto Antigravity Dark** | dark | `#0F1520` | `#4DC4FF` | Dimmed blue-gray with a cool blue accent. |
+| **Pavao Discreto Antigravity Light** | light | `#F8F9FA` | `#1967d2` | Clean light theme in the style of Material design. |
 
-## Theme Selection
-To switch between themes:
-1. Press `Ctrl+K Ctrl+T` (Windows/Linux) or `Cmd+K Cmd+T` (Mac)
-2. Select "Pavao Discreto Dark", "Pavao Discreto Light", "Pavao Discreto Antigravity Dark", or "Pavao Discreto Antigravity Light"
-3. Or use the Command Palette (`Ctrl+Shift+P`) and search for "Color Theme"
+### Dark
+![Pavão Discreto Dark](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/screenshots/dark.png)
 
-## Installation
-To install Pavão Discreto, visit the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto) and click 'Install'. Follow the instructions to integrate it into your VS Code environment.
+### Light
+![Pavão Discreto Light](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/screenshots/light.png)
 
-## Recommended Settings
-Enhance your coding experience by adjusting these settings in VS Code:
+### Antigravity Dark
+![Pavão Discreto Antigravity Dark](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/screenshots/antigravity-dark.png)
 
-```json
+### Antigravity Light
+![Pavão Discreto Antigravity Light](https://raw.githubusercontent.com/vieiraes/pavao-discreto-theme/master/storage/screenshots/antigravity-light.png)
+
+## Install
+
+1. Install from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=BrunoVieira.pavao-discreto), or run `ext install BrunoVieira.pavao-discreto` from Quick Open (`Ctrl+P`).
+2. Press `Ctrl+K Ctrl+T` (`Cmd+K Cmd+T` on macOS) and pick one of the four **Pavao Discreto** variants.
+
+## Highlights
+
+- **Readable in the dark.** In both dark variants every syntax color reaches at least 4.5:1 against the editor background (WCAG AA). A script checks this on every change.
+- **Gentle in the light.** The light variants use warm or neutral surfaces instead of bright white and keep contrast moderate to reduce glare.
+- **Complete UI coverage.** Colors are set for the editor, terminal (all 16 ANSI colors), git decorations, diff editor, bracket pairs, Copilot chat, inline edits, notifications, charts and more.
+- **Tuned languages.** JavaScript, TypeScript, React (JSX/TSX), Python, Shell/Bash, Java, JSON, YAML, Markdown, `.env`/INI, Prisma, DBML and UML have their own rules. HTML/CSS is covered, with fewer dedicated rules.
+
+## Recommended settings
+
+```jsonc
 {
-  "editor.lineHeight": 30,
-  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', monospace",
   "editor.fontSize": 16,
-  "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.fontSize": 18,
+  "editor.lineHeight": 30,
+  "terminal.integrated.fontSize": 16,
+  "workbench.iconTheme": "macish-icons"
 }
 ```
 
-These settings enhance readability and comfort. For the best experience, use with the `Jet Brains Mono` font. Download it [here](https://www.jetbrains.com/lp/mono/).
+- Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- Icons: [Macish Icons](https://marketplace.visualstudio.com/items?itemName=jo-te.macish-icons)
 
-## Recommended Icon Theme
-For the best visual experience, we recommend using the **Macish Icons** theme alongside Pavão Discreto. This icon theme provides a clean and modern look that perfectly complements our color scheme.
+Your monitor's night or low-blue-light mode works well with the dark variants. Colors can look slightly different on macOS because of display color management.
 
-Install it from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jo-te.macish-icons).
+## Accessibility
 
-To enable it:
-1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
-2. Type "File Icon Theme"
-3. Select "Macish Icons"
+Contrast is measured with the WCAG 2.1 formula. Colors with transparency are blended over their background before measuring.
 
-## Language Compatibility
+| Variant | Syntax colors | Lowest ratio | Rule |
+|---|---|---|---|
+| Dark | 45 | 4.56:1 | ≥ 4.5:1 (enforced) |
+| Antigravity Dark | 12 | 4.88:1 | ≥ 4.5:1 (enforced) |
+| Light | 28 | 3.10:1 | ≥ 3:1 (comfort target) |
+| Antigravity Light | 19 | 3.04:1 | ≥ 3:1 (comfort target) |
 
-| Language | Support | Language | Support |
-|----------|---------|----------|---------|
-| JavaScript | ✅ 100% | TypeScript | ✅ 100% |
-| Python | ✅ 100% | React/JSX/TSX | ✅ 100% |
-| Java | ✅ 100% | Shell Script / Bash | ✅ 100% |
-| JSON | ✅ 100% | YAML | ✅ 100% |
-| Markdown | ✅ 100% | ENV | ✅ 100% |
-| Prisma ORM | ✅ 100% | DBML | ✅ 100% |
-| UML | ✅ 100% | HTML/CSS | ⚠️ 80% |
+The light variants lower contrast on purpose to reduce glare. They do not claim WCAG AA.
 
-## Accessibility & WCAG Compliance
+## Development
 
-![WCAG AA Compliant](https://img.shields.io/badge/WCAG%20AA-Compliant-green?style=for-the-badge)
-![Contrast Ratio](https://img.shields.io/badge/Contrast-4.87:1%20to%2016.23:1-blue?style=for-the-badge)
-![Accessibility](https://img.shields.io/badge/Accessibility-100%25%20Dark-success?style=for-the-badge)
+There is no build step. VS Code reads the theme files in [themes/](themes/) directly. They are JSONC, so comments are allowed.
 
-### Dark Theme: WCAG 2.1 Level AA Certified ✅
+```bash
+npm run check     # contrast audit for all four variants (fails if a dark variant drops below 4.5:1)
+npm run package   # build the .vsix with @vscode/vsce
+```
 
-The **Pavão Discreto Dark Theme** is officially certified compliant with international accessibility standards.
+Press `F5` in VS Code to open a development window with the themes loaded.
 
-**Certification Details:**
-- ✅ **100% Compliant** - All 43 syntax colors meet WCAG AA requirements
-- ✅ **Contrast Range**: 4.87:1 to 16.23:1 (exceeds minimum 4.5:1 requirement)
-- ✅ **Background**: #0F1520 (deep blue-gray optimized for minimal eye strain)
-- ✅ **Validated**: Automated WCAG contrast ratio testing
+When you change a color:
 
-**Benefits:**
-- Safe for users with low vision or color vision deficiencies
-- Complies with Section 508 and accessibility requirements for professional/educational use
-- Scientifically validated to reduce eye fatigue during extended sessions
+1. Edit the variant in `themes/`. If you change language support, update all variants.
+2. Run `npm run check`.
+3. Write down the old and new hex values and the contrast ratio in [CHANGELOG.md](CHANGELOG.md).
 
-**Light Theme:** Currently 34.8% compliant - optimized for visual comfort, warm low-glare surfaces, and muted contrast while we work toward fuller accessibility.
+## Feedback
 
-## About This Theme
+Report bugs and suggestions in [GitHub Issues](https://github.com/vieiraes/pavao-discreto-theme/issues).
 
-Pavão Discreto was created by a developer for developers who spend hours coding daily. Born from personal need to reduce eye strain, this theme prioritizes **comfort without sacrificing aesthetics**.
+## Credits
 
-The project now follows one unified rule across both variants: visual comfort first. The dark theme delivers a deeper dimmed environment, and the light theme applies the same philosophy through warm off-whites, softer separators, and low-glare surfaces.
-
-**Design Philosophy:**
-- No pure white or black backgrounds - both variants use controlled tones to reduce fatigue
-- Dark and Light themes share the same comfort-first logic: restrained saturation, muted surfaces, and readable contrast
-- 1200+ meticulously crafted color rules across 15+ languages
-- Each file type gets distinct visual identity for instant recognition
-- Continuous improvements based on real-world usage and community feedback
-
-We encourage enabling your monitor's eye-safe features for the best experience. Note: Some macOS users may experience color adaptation differences.
-
-## Feedback and Contributions
-Your feedback is invaluable to us. Report issues and suggest improvements on our [GitHub repository](https://github.com/vieiraes/pavao-discreto-theme/issues).
-
-## The Team
-- **Development**: Bruno Vieira ([vieira.es@gmail.com](mailto:vieira.es@gmail.com))
-- **Art and Logo**: Ruan Rodrigues ([ru.1170@hotmail.com](mailto:ru.1170@hotmail.com))
+- **Development:** Bruno Vieira ([vieira.es@gmail.com](mailto:vieira.es@gmail.com))
+- **Original logo and art:** Ruan Rodrigues ([ru.1170@hotmail.com](mailto:ru.1170@hotmail.com)). The original is kept in [storage/legacy/](storage/legacy/).
 
 ## License
-Pavão Discreto is licensed under the [MIT License]
+
+[MIT](LICENSE.md) © Bruno Vieira

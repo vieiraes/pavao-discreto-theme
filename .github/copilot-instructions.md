@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-This is a **VS Code color theme extension** with two variants:
-- **Dark** (`themes/pavao-discreto-color-theme.json`) — WCAG 2.1 Level AA certified (100% compliant, contrast ≥ 4.5:1)
-- **Light** (`themes/pavao-discreto-light-theme.json`) — warm low-glare aesthetic with muted surfaces and comfort-first contrast; **WCAG compliance is NOT required** for this variant
+This is a **VS Code color theme extension** with four variants:
+- **Dark** (`themes/pavao-discreto-color-theme.json`): WCAG 2.1 AA, every token foreground ≥ 4.5:1 against `#0F1520`
+- **Light** (`themes/pavao-discreto-light-theme.json`): warm low-glare, comfort-first; **WCAG is NOT required** (target ≥ 3:1)
+- **Antigravity Dark** (`themes/pavao-discreto-antigravity-dark-theme.json`): WCAG 2.1 AA, same rule as Dark
+- **Antigravity Light** (`themes/pavao-discreto-antigravity-light-theme.json`): clean Material-style light; WCAG not required (target ≥ 3:1)
 
 There are no build steps. The theme files are consumed directly by VS Code.
 
@@ -30,27 +32,26 @@ vsce package
 # Produces a .vsix file in the project root
 ```
 
-The `.vscodeignore` excludes `utils/`, `dist/`, `.vscode/`, and all `.vsix` files from the published package.
+The `.vscodeignore` excludes `.github/`, `scripts/`, `.vscode/`, `storage/legacy/`, preview screenshots and all `.vsix` files from the published package.
 
 ## Accessibility — WCAG Contrast Rules
 
-**Dark theme only**: every `"foreground"` color in `tokenColors` must achieve ≥ 4.5:1 contrast ratio against the editor background `#0F1520`. Run the checker after every color change to the dark theme.
+**Dark variants** (Dark, Antigravity Dark): every `"foreground"` in `tokenColors` must reach ≥ 4.5:1 against `editor.background` `#0F1520`.
 
-**Light theme**: WCAG contrast is **not enforced**. Preserve the warm, muted, low-glare palette and the visual-comfort-first philosophy of the light theme even if some ratios fall below 4.5:1. Avoid bright whites, icy blue surfaces, or overly saturated accents.
+**Light variants**: WCAG is **not enforced**. Keep the low-glare palette even when some ratios fall below 4.5:1. Avoid bright whites, icy blue surfaces and oversaturated accents. Aim for token colors ≥ 3:1.
 
-Run the contrast checker from the project root:
+Run the checker from the project root after every color change:
 
 ```bash
-python3 utils/contrast-checker.py
-# or the simpler version:
-python3 utils/simple-contrast-check.py
+npm run check          # node scripts/check-contrast.mjs
+npm run check -- --verbose
 ```
 
-Both scripts read `themes/*.json` relative to the working directory. Run them from the project root.
+It parses JSONC, blends alpha colors over their background, exits 1 when a dark variant breaks the 4.5:1 rule, and prints warnings for light tokens below 3:1 and UI text pairs below 4.5:1.
 
 ## Theme File Structure
 
-Both JSON files follow `$schema: "vscode://schemas/color-theme"` and have two main sections:
+All theme files are JSONC (comments allowed) and follow `$schema: "vscode://schemas/color-theme"` and have two main sections:
 
 1. **`colors`** — UI chrome (editor, sidebar, activity bar, tabs, git decorations, widgets, etc.)
 2. **`tokenColors`** — Syntax highlighting rules; each entry has `scope` (string or array) and `settings.foreground` / `settings.fontStyle`
@@ -60,8 +61,7 @@ Colors are hex strings with optional alpha: `#RRGGBB` or `#RRGGBBAA`.
 ## Key Conventions
 
 - **Scope targeting**: use granular TextMate scopes (e.g., `support.function.magic.python`) for language-specific overrides; broader scopes (e.g., `keyword`) apply globally.
-- **Both themes must stay in sync for language support**: when adding or updating token rules for a language, apply equivalent changes to both dark and light themes.
-- **Reference palette**: `utils/colors.json` lists the canonical color values used across the theme. Update it when introducing new colors.
+- **All variants must stay in sync for language support**: when adding or updating token rules for a language, apply equivalent changes to every variant.
 - **Alpha-channel transparency**: many colors encode transparency in the last two hex digits (e.g., `#8965d799`). Strip the alpha when running WCAG checks — the utility scripts handle this automatically.
 - **CHANGELOG**: Follow keep-a-changelog format. Document every color change with the old and new hex value and the resulting contrast ratio (see existing entries for examples).
 

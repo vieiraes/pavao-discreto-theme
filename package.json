@@ -1,28 +1,37 @@
 {
     "name": "pavao-discreto",
-    "displayName": "pavao-discreto",
+    "displayName": "Pavão Discreto",
     "description": "Visual-comfort-first VS Code theme with four balanced variants: a deep dimmed dark theme, a warm low-glare light theme, a dimmed Antigravity Dark theme, and a clean Antigravity Light theme. Built for long coding sessions with controlled contrast, muted surfaces, and tuned syntax highlighting for JavaScript, TypeScript, React/JSX/TSX, Python, Shell Script/Bash, Prisma, DBML, and more.",
-    "version": "0.7.27",
+    "version": "0.8.0",
     "publisher": "BrunoVieira",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:vieiraes/pavao-discreto-theme.git"
-    },
-    "icon": "storage/logo-pavao-discreto.png",
-    "homepage": "https://github.com/vieiraes/pavao-discreto-theme/blob/master/README.md",
-    "license": "SEE LICENSE IN LICENSE.md",
     "author": {
         "name": "Bruno Vieira"
     },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "storage/logo.png",
     "galleryBanner": {
-        "color": "#3a0681",
+        "color": "#0F1520",
         "theme": "dark"
     },
+    "homepage": "https://github.com/vieiraes/pavao-discreto-theme/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vieiraes/pavao-discreto-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vieiraes/pavao-discreto-theme/issues",
+        "email": "vieira.es@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
     "keywords": [
         "bitcapital",
         "okto",
         "vscode-theme",
-        "vscode",
         "visual-studio-code",
         "accessibility",
         "eye-strain",
@@ -30,11 +39,11 @@
         "low-glare",
         "theme",
         "dimmed",
-        "eyes",
         "pavao",
         "discreto",
         "readable",
         "dark",
+        "light",
         "contrast",
         "pavao-discreto",
         "react",
@@ -51,12 +60,10 @@
         "devops",
         "automation"
     ],
-    "engines": {
-        "vscode": "^1.66.0"
+    "scripts": {
+        "check": "node scripts/check-contrast.mjs",
+        "package": "npx @vscode/vsce package"
     },
-    "categories": [
-        "Themes"
-    ],
     "contributes": {
         "themes": [
             {
@@ -80,9 +87,5 @@
                 "path": "./themes/pavao-discreto-antigravity-light-theme.json"
             }
         ]
-    },
-   "bugs": {
-        "url": "https://github.com/vieiraes/pavao-discreto-theme/issues",
-        "email": "vieira.es@gmail.com"
     }
 }

@@ -1,5 +1,15 @@
 .vscode/**
 .vscode-test/**
+.github/**
+.claude/**
+CLAUDE.md
+scripts/**
+utils/**
+dist/**
+node_modules/**
+storage/legacy/**
+storage/*.svg
+**/*.vsix
 .gitignore
 vsc-extension-quickstart.md
-node_modules/
+storage/screenshots/**
