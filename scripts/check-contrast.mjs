@@ -6,7 +6,8 @@
 //
 // Rules
 // - Dark variants: every tokenColors foreground must reach 4.5:1 against
-//   editor.background (error, exit code 1).
+//   editor.background (error, exit code 1). Comments are dimmed by design
+//   and only need 2:1.
 // - Light variants: comfort-first, WCAG not enforced. Tokens below 3:1 are
 //   reported as warnings only.
 // - UI text pairs (tabs, status bar, buttons, badges, ...) below 4.5:1 are
@@ -19,6 +20,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const verbose = process.argv.includes('--verbose');
+const COMMENT_MIN = 2;
 const HEX = /^#(?:[0-9a-f]{3,4}|[0-9a-f]{6}|[0-9a-f]{8})$/i;
 
 // [foreground key, background key] — background falls back to editor.background.
@@ -121,10 +123,13 @@ for (const { label, path, uiTheme } of pkg.contributes.themes) {
             problems.push(`invalid token color ${fg} (${rule.scope})`);
             continue;
         }
-        if (!seen.has(fg)) seen.set(fg, [contrast(fg, bg, bg), rule.scope]);
+        const scopes = [rule.scope].flat().join(',').split(',').map((x) => x.trim());
+        const isComment = scopes.every((x) => x.startsWith('comment') || x.includes('.comment'));
+        const prev = seen.get(fg);
+        if (!prev || (prev[2] && !isComment)) seen.set(fg, [contrast(fg, bg, bg), rule.scope, isComment]);
     }
-    const tokenMin = dark ? 4.5 : 3;
-    for (const [fg, [ratio, scope]] of seen) {
+    for (const [fg, [ratio, scope, isComment]] of seen) {
+        const tokenMin = isComment ? COMMENT_MIN : dark ? 4.5 : 3;
         if (ratio >= tokenMin) continue;
         const msg = `token ${fg} ${ratio.toFixed(2)}:1 < ${tokenMin} (${String(scope).slice(0, 60)})`;
         (dark ? problems : warnings).push(msg);

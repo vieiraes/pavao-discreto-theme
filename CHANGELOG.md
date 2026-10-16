@@ -1,6 +1,38 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.9.0] - 2026-10-16
+### Added
+- **Pavao Discreto Darkest Antigravity** is back: the fifth variant, a warm Monokai-inspired dimmed dark theme (editor `#14161A`, purple keywords in italic). It was created in 0.7.30/0.7.31 on another machine and never reached the published 0.8.x line.
+
+### Changed — Darkest Antigravity, brought up to 0.8
+- The 65+ workbench keys added in 0.8.0 to the other variants (`foreground`, `focusBorder`, `editorCursor.*`, `editor.findMatch*`, `selection.background`, `quickInput.*`, `peekView*`, `gauge.*`, `widget.shadow` and more, 67 in total) now use the Darkest palette instead of VS Code's blue defaults. Each one takes the Darkest color that sits where Antigravity Dark uses the same color.
+- Syntax colors raised just enough to pass the 4.5:1 rule enforced since 0.8.0, same hue: keywords `#845AA8` → `#9470B4` (3.46 → 4.52:1), tags and interfaces `#946878` → `#9D7483` (3.89 → 4.54:1), punctuation and markup `#5F7F9C` → `#6283A0` (4.31 → 4.55:1). UI colors are unchanged.
+- Debug status bar `#B57542` (a light-theme leftover, 1.99:1 with the text) → `#4A2A1C`, as in the other dark variants.
+
+## [0.8.1] - 2026-09-24
+### Changed — back to dimmed
+0.8.0 raised contrast on elements that were meant to stay quiet. This release restores the dimmed look and keeps only the real bug fixes, in softer tones.
+
+#### Dark
+- Restored the 0.7.27 values: comments `#7f848e86`, line numbers `#7959bf30` / `#74b9ff66`, `tab.inactiveForeground` `#787c8570`, `activityBar.inactiveForeground` `#9DA5B480`, `statusBar.foreground` `#9DA5B499`, `descriptionForeground` `#9DA5B490`, `terminal.foreground` `#9DA5B499`, `gitDecoration.ignoredResourceForeground` `#636b7866`.
+- Debug status bar: kept the grey text `#9DA5B4` and dimmed the bar instead, `#cc6633` → `#4A2A1C` (it was 1.54:1).
+- ANSI normal colors added in 0.8.0 are now muted versions of the bright set: `#B85C66`, `#7A9E4A`, `#B08A5E`, `#9C6AB0`, `#4F9696`, `#8A919E`; bright yellow `#C9A96A`.
+
+#### Antigravity Dark
+- UI text `#E8F0FE` (≈ 15:1, near white) → `#C5CAD3` across sidebar, tabs, lists, menus, inputs and panels (21 keys). Status bar and title bar → `#9DA5B4`, activity bar → `#ABB2BF`, terminal text → `#ABB2BF`.
+- Line numbers `#9DA5B4` → `#4F5666`, active `#4DC4FF` → `#4DC4FF99`.
+- Accent fills (buttons, badges, progress bar) `#4DC4FF` → `#3A9BD0`. Remote status item is no longer a bright block: `#1D2235` with `#4DC4FF` text.
+- Find matches `#D19A6666` → `#D19A6640`, cursor → `#4DC4FFCC`, debug bar → `#4A2A1C`, ignored files back to `#9DA5B480`.
+
+#### Light and Antigravity Light
+- Restored the 0.7.27 softer values for buttons and badges (`#6D94A6` / `#1a73e8` with `#F5F7F9`), line numbers `#9097A2`, the debug bar, error items, the suggest widget and the Light punctuation tokens (`#6B9B03`, `#4D9C9C`, `#B58545`).
+- Kept the fix for the invisible selected-suggestion icon in Light.
+- Antigravity Light terminal ANSI colors are softer pastels on the dark terminal.
+
+#### Contrast checker
+- Comments are dimmed by design and now have their own 2:1 floor. Every other syntax color in the dark variants still needs 4.5:1.
+
 ## [0.8.0] - 2026-09-23
 ### Added
 - New logo: a minimal peacock-feather eyespot in the theme palette (`storage/logo.svg`, `storage/logo.png`). The original logo by Ruan Rodrigues moved to `storage/legacy/`.

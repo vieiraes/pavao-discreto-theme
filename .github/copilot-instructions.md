@@ -3,7 +3,7 @@
 ## Project Overview
 
 This is a **VS Code color theme extension** with four variants:
-- **Dark** (`themes/pavao-discreto-color-theme.json`): WCAG 2.1 AA, every token foreground ≥ 4.5:1 against `#0F1520`
+- **Dark** (`themes/pavao-discreto-color-theme.json`): dimmed; WCAG 2.1 AA for code, every token foreground ≥ 4.5:1 against `#0F1520` except comments (≥ 2:1)
 - **Light** (`themes/pavao-discreto-light-theme.json`): warm low-glare, comfort-first; **WCAG is NOT required** (target ≥ 3:1)
 - **Antigravity Dark** (`themes/pavao-discreto-antigravity-dark-theme.json`): WCAG 2.1 AA, same rule as Dark
 - **Antigravity Light** (`themes/pavao-discreto-antigravity-light-theme.json`): clean Material-style light; WCAG not required (target ≥ 3:1)
@@ -36,7 +36,9 @@ The `.vscodeignore` excludes `.github/`, `scripts/`, `.vscode/`, `storage/legacy
 
 ## Accessibility — WCAG Contrast Rules
 
-**Dark variants** (Dark, Antigravity Dark): every `"foreground"` in `tokenColors` must reach ≥ 4.5:1 against `editor.background` `#0F1520`.
+**Dark variants** (Dark, Antigravity Dark): every `"foreground"` in `tokenColors` must reach ≥ 4.5:1 against `editor.background` `#0F1520`. Comments are the exception: they stay dimmed on purpose (≥ 2:1).
+
+**Keep the dark variants dimmed.** The user prefers quiet chrome: line numbers, inactive tabs, status bar, secondary text and terminal text use muted or alpha greys, and UI text should not be brighter than `editor.foreground` `#C5CAD3`. Do not raise their contrast to satisfy WCAG; the rule applies to code tokens only.
 
 **Light variants**: WCAG is **not enforced**. Keep the low-glare palette even when some ratios fall below 4.5:1. Avoid bright whites, icy blue surfaces and oversaturated accents. Aim for token colors ≥ 3:1.
 
